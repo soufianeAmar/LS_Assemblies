@@ -1,0 +1,26 @@
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\bin\Debug\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\bin\Debug\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Debug\LsSecurityModule.LsSecurityModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Debug\LsSecurityModule.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Debug\LsSecurityModule.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Debug\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Debug\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\bin\Debug\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\bin\Debug\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\obj\Debug\LsSecurityModule.LsSecurityModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\obj\Debug\LsSecurityModule.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\obj\Debug\LsSecurityModule.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\obj\Debug\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\obj\Debug\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LsSecurityModule\bin\Debug\System.Data.SQLite.dll
+E:\projet\LS Assemblies\LsSecurityModule\bin\Debug\LsSecurityModule.dll
+E:\projet\LS Assemblies\LsSecurityModule\bin\Debug\LsSecurityModule.pdb
+E:\projet\LS Assemblies\LsSecurityModule\obj\Debug\LsSecurityModule.LsSecurityModule.resources
+E:\projet\LS Assemblies\LsSecurityModule\obj\Debug\LsSecurityModule.csproj.GenerateResource.Cache
+E:\projet\LS Assemblies\LsSecurityModule\obj\Debug\LsSecurityModule.dll.licenses
+E:\projet\LS Assemblies\LsSecurityModule\obj\Debug\LsSecurityModule.dll
+E:\projet\LS Assemblies\LsSecurityModule\obj\Debug\LsSecurityModule.pdb
+E:\projet\LS Assemblies\LsSecurityModule\bin\Debug\lsactvtn.Net.dll
+E:\projet\LS Assemblies\LsSecurityModule\bin\Debug\AutomaticUpdater.dll
+E:\projet\LS Assemblies\LsSecurityModule\bin\Debug\lsactvtn.Net.pdb
+E:\projet\LS Assemblies\LsSecurityModule\obj\Debug\LsSecurityModule.ListViewController.resources

@@ -1,0 +1,9 @@
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\bin\Release\LsNotificationModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\bin\Release\LsNotificationModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\bin\Release\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\bin\Release\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Release\LsNotificationModule.LsNotificationModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Release\LsNotificationModule.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Release\LsNotificationModule.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Release\LsNotificationModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Release\LsNotificationModule.pdb

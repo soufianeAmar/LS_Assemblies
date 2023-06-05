@@ -1,0 +1,75 @@
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LSAdmin.Module.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LSAdmin.Module.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\AutomaticUpdater.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\lsactvtn.Net.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\AutomaticUpdater.xml
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\lsactvtn.Net.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.DBPathVC.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.LSAdminModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LsNotificationModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LsNotificationModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\System.Data.SQLite.dll
+C:\Program Files (x86)\Leadersoft\WinParc\LSAdmin.Module.dll
+C:\Program Files (x86)\Leadersoft\WinParc\LSAdmin.Module.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\LSAdmin.Module.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\LSAdmin.Module.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\ar\LSAdmin.Module.resources.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\fr\LSAdmin.Module.resources.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\AutomaticUpdater.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\lsactvtn.Net.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\System.Data.SQLite.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\AutomaticUpdater.xml
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\lsactvtn.Net.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\bin\Debug\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.DBPathVC.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.FindServerDlg.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.ServerListDlg.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.UpdateDetails.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.LSAdminModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.FindServerDlg.ar.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.FindServerDlg.fr.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.ServerListDlg.ar.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.ServerListDlg.fr.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.UpdateDetails.ar.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.UpdateDetails.fr.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.Module.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\ar\LSAdmin.Module.resources.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\fr\LSAdmin.Module.resources.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.Module.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.Module.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.Controllers.LayoutController.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\LSAdmin\obj\Debug\LSAdmin.csprojResolveAssemblyReference.cache
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.DBPathVC.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.FindServerDlg.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.ServerListDlg.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.UpdateDetails.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.Controllers.LayoutController.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.LSAdminModule.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.FindServerDlg.ar.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.FindServerDlg.fr.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.ServerListDlg.ar.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.ServerListDlg.fr.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.UpdateDetails.ar.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.UpdateDetails.fr.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.csproj.GenerateResource.Cache
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.Module.dll.licenses
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.Module.dll
+C:\Projet\LS Assemblies\LSAdmin\bin\Debug\LSAdmin.Module.dll
+C:\Projet\LS Assemblies\LSAdmin\bin\Debug\LSAdmin.Module.pdb
+C:\Projet\LS Assemblies\LSAdmin\bin\Debug\ar\LSAdmin.Module.resources.dll
+C:\Projet\LS Assemblies\LSAdmin\bin\Debug\fr\LSAdmin.Module.resources.dll
+C:\Projet\LS Assemblies\LSAdmin\bin\Debug\LsSecurityModule.dll
+C:\Projet\LS Assemblies\LSAdmin\bin\Debug\LsSecurityModule.pdb
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\ar\LSAdmin.Module.resources.dll
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\fr\LSAdmin.Module.resources.dll
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.Module.pdb
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.ConfigServer.resources
+C:\Projet\LS Assemblies\LSAdmin\obj\Debug\LSAdmin.csprojResolveAssemblyReference.cache

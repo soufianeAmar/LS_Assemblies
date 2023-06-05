@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="CustomLogonParameter_DetailView">
+      <Items>
+        <StaticImage Id="LogonImage" ImageName="Security_Image" VerticalAlign="Middle" SizeMode="AutoSize" IsNewNode="True" />
+        <StaticText Id="LogonText" Text="Welcome! Please enter your user name and password below." IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="CustomLogonParameter" RelativeSize="100" Direction="Horizontal" Caption="CustomLogonParameter">
+              <LayoutItem Id="LogonImage" ViewItem="LogonImage" Index="0" RelativeSize="17.985611510791365" IsNewNode="True" />
+              <LayoutItem Id="UserName" Index="0" RelativeSize="3.9800995024875623" Removed="True" />
+              <LayoutGroup Id="Auto7b7cdabc-c2bc-4604-b438-0f8a65af8ec9" ShowCaption="False" Caption="" Index="1" RelativeSize="82.014388489208628" IsNewNode="True">
+                <LayoutItem Id="LogonText" ViewItem="LogonText" Index="0" RelativeSize="3.9800995024875623" IsNewNode="True" />
+                <LayoutItem Id="UserName" ViewItem="UserName" Index="1" RelativeSize="2.9850746268656718" IsNewNode="True" />
+                <LayoutItem Id="Password" ViewItem="Password" Index="2" RelativeSize="2.9850746268656718" IsNewNode="True" />
+                <LayoutItem Id="database" ViewItem="database" Index="3" RelativeSize="90.049751243781088" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="Password" Index="1" RelativeSize="2.9850746268656718" Removed="True" />
+              <LayoutItem Id="database" Index="2" RelativeSize="93.03482587064677" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Dossier_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="cParcourir" Caption="Parcourir" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="11.691542288557214">
+            <LayoutGroup Id="Dossier" RelativeSize="100">
+              <LayoutItem Id="code_dossier" RelativeSize="34.042553191489361" Index="0" />
+              <LayoutItem Id="description" RelativeSize="25.531914893617021" Index="1" />
+              <LayoutGroup Id="Auto7f34c452-eee2-4d67-b9cb-25951c31d2c1" ShowCaption="False" Caption="Auto7f34c452-eee2-4d67-b9cb-25951c31d2c1(6)" Direction="Horizontal" Index="2" RelativeSize="40.425531914893618" IsNewNode="True">
+                <LayoutItem Id="chemin" ViewItem="chemin" Index="0" RelativeSize="64.892086330935257" IsNewNode="True" />
+                <LayoutItem Id="cParcourir" ViewItem="cParcourir" Index="1" RelativeSize="35.10791366906475" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="chemin" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="exercices_Group" Direction="Vertical" RelativeSize="88.308457711442784">
+            <LayoutItem Id="exercices" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Dossier_exercices_ListView" NewItemRowPosition="Bottom" AllowEdit="True">
+      <Columns>
+        <ColumnInfo Id="exercice" Index="-1" />
+        <ColumnInfo Id="designation" Index="0" Width="312" />
+        <ColumnInfo Id="db_name" Index="1" Width="196" />
+      </Columns>
+    </ListView>
+    <ListView Id="Dossier_ListView" MasterDetailMode="ListViewAndDetailView">
+      <Columns>
+        <ColumnInfo Id="code_dossier" Index="0" Width="123" />
+        <ColumnInfo Id="description" Index="1" Width="320" />
+        <ColumnInfo Id="chemin" Index="2" Width="321" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Exercice_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Exercice" RelativeSize="100" ImageName="" Direction="Vertical" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="db_name" SizeConstraintsType="Default" Index="0" RelativeSize="4.18848167539267" ViewItem="db_name" IsNewNode="True" />
+              <LayoutGroup Id="Exercice_col1" Index="1" RelativeSize="10.602094240837696">
+                <LayoutItem Id="dossier" SizeConstraintsType="Default" RelativeSize="37.037037037037038" />
+                <LayoutItem Id="exercice" SizeConstraintsType="Default" RelativeSize="29.62962962962963" />
+                <LayoutItem Id="designation" SizeConstraintsType="Default" RelativeSize="33.333333333333336" />
+              </LayoutGroup>
+              <LayoutGroup Id="Exercice_col2" Index="2" RelativeSize="3.9267015706806281" Caption="Exercice_col2">
+                <LayoutItem Id="maxUsers" SizeConstraintsType="Default" RelativeSize="100" Index="0" />
+                <LayoutItem Id="db_name" SizeConstraintsType="Default" RelativeSize="57.8125" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Parcourir" ShowCaption="False" Caption="Parcourir" Direction="Vertical" Index="3" RelativeSize="81.282722513089" IsNewNode="True">
+                <LayoutGroup Id="Item1" ShowCaption="False" CaptionLocation="Top" Direction="Vertical" Index="0" RelativeSize="100" Caption="Chemin du fichier BDD" IsNewNode="True">
+                  <LayoutGroup Id="users_Group" ShowCaption="True" Caption="users" Index="0" RelativeSize="100" IsNewNode="True">
+                    <LayoutItem Id="users" ViewItem="users" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="users_Group" Direction="Vertical" RelativeSize="33.333333333333336" Removed="True">
+            <LayoutItem Id="users" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="LsUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="21.393034825870647">
+            <LayoutGroup Id="LsUser" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="LsUser_col1" RelativeSize="100" Direction="Horizontal">
+                <LayoutGroup Id="Autofe6e9f5b-4159-482c-b739-165f1571a401" ShowCaption="False" Caption="Autofe6e9f5b-4159-482c-b739-165f1571a401(5)" Index="0" RelativeSize="52.515723270440255" IsNewNode="True">
+                  <LayoutGroup Id="Auto02acdfdc-2bff-450f-9ed0-75c7df4dc923" ShowCaption="False" Caption="Auto02acdfdc-2bff-450f-9ed0-75c7df4dc923(6)" Direction="Horizontal" Index="0" RelativeSize="28.35820895522388" IsNewNode="True">
+                    <LayoutItem Id="firstName" ViewItem="firstName" SizeConstraintsType="Default" Index="0" RelativeSize="49.30139720558882" IsNewNode="True" />
+                    <LayoutItem Id="surName" ViewItem="surName" SizeConstraintsType="Default" Index="1" RelativeSize="50.69860279441118" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="fullName" ViewItem="fullName" SizeConstraintsType="Default" Index="1" RelativeSize="17.910447761194028" IsNewNode="True" />
+                  <LayoutGroup Id="Autoe3a80a1a-10d2-438c-b46b-143947006c35" ShowCaption="False" Caption="Autoe3a80a1a-10d2-438c-b46b-143947006c35(10)" Direction="Horizontal" Index="2" RelativeSize="29.850746268656717" IsNewNode="True">
+                    <LayoutGroup Id="Auto212bb8ac-bd76-4457-80c5-ee362bc58f4a" ShowCaption="False" Caption="Auto212bb8ac-bd76-4457-80c5-ee362bc58f4a(11)" Index="0" RelativeSize="49.9001996007984" IsNewNode="True">
+                      <LayoutItem Id="email" ViewItem="email" SizeConstraintsType="Default" Index="0" RelativeSize="75" IsNewNode="True" />
+                      <LayoutItem Id="isSubscriptionOwner" SizeConstraintsType="Default" Index="1" RelativeSize="25" ShowCaption="False" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto1f6dc8b3-7040-40d1-916f-5fc7d50aa45b" ShowCaption="False" Caption="Auto1f6dc8b3-7040-40d1-916f-5fc7d50aa45b(14)" Index="1" RelativeSize="50.0998003992016" IsNewNode="True">
+                      <LayoutItem Id="emailConfirmed" ViewItem="emailConfirmed" SizeConstraintsType="Default" Index="0" RelativeSize="75" IsNewNode="True" />
+                      <LayoutItem Id="subscriptionOwner" SizeConstraintsType="Default" Index="1" RelativeSize="25" ShowCaption="False" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                  <LayoutItem Id="subscriptionExpiresOn" ViewItem="subscriptionExpiresOn" SizeConstraintsType="Default" Index="3" RelativeSize="23.880597014925375" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="fullName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" Removed="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="3.7735849056603774" ViewItem="" IsNewNode="True" />
+                <LayoutGroup Id="Auto0f44e3c1-99f7-4566-a7ed-9849a54dd8f7" ShowCaption="False" Caption="" Index="2" RelativeSize="43.710691823899374" IsNewNode="True">
+                  <LayoutItem Id="userName" ViewItem="userName" SizeConstraintsType="Default" Index="0" RelativeSize="23.880597014925375" IsNewNode="True" />
+                  <LayoutItem Id="paymentPlan" ViewItem="paymentPlan" SizeConstraintsType="Default" Index="1" RelativeSize="76.119402985074629" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="email" SizeConstraintsType="Default" RelativeSize="36.363636363636367" Index="2" Removed="True" />
+                <LayoutItem Id="userName" SizeConstraintsType="Default" Index="2" RelativeSize="43.710691823899374" Removed="True" />
+                <LayoutItem Id="emailConfirmed" SizeConstraintsType="Default" RelativeSize="28.571428571428573" Index="3" Removed="True" />
+                <LayoutItem Id="firstName" SizeConstraintsType="Default" RelativeSize="23.529411764705884" Removed="True" />
+                <LayoutItem Id="surName" SizeConstraintsType="Default" RelativeSize="17.647058823529413" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="LsUser_col2" RelativeSize="50" Caption="LsUser_col2" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="active" Removed="True" />
+                <LayoutItem Id="createdOn" Removed="True" />
+                <LayoutItem Id="password" Removed="True" />
+                <LayoutItem Id="subscriptionExpiresOn" Removed="True" />
+                <LayoutItem Id="userName" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="exercices_Group" Direction="Vertical" RelativeSize="78.606965174129357">
+            <LayoutItem Id="exercices" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="LsUser_ListView">
+      <Columns>
+        <ColumnInfo Id="active" Index="-1" />
+        <ColumnInfo Id="createdOn" Index="-1" />
+        <ColumnInfo Id="email" Index="-1" />
+        <ColumnInfo Id="emailConfirmed" Index="-1" />
+        <ColumnInfo Id="password" Index="-1" />
+        <ColumnInfo Id="subscriptionExpiresOn" Index="-1" />
+        <ColumnInfo Id="userName" Width="180" />
+        <ColumnInfo Id="firstName" Width="125" />
+        <ColumnInfo Id="surName" Width="146" />
+      </Columns>
+    </ListView>
+    <ListView Id="LsUser_LookupListView" AllowDelete="False" AllowNew="False" />
+  </Views>
+</Application>

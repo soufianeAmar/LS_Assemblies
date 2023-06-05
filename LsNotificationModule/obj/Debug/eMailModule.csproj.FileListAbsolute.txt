@@ -1,0 +1,16 @@
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\obj\Debug\eMailModule.eMailModuleModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\obj\Debug\eMailModule.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\bin\Debug\eMailModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\bin\Debug\eMailModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\obj\Debug\eMailModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\obj\Debug\eMailModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\obj\Debug\eMailModule.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\eMailTest\eMailModule\obj\Debug\eMailModule.csprojResolveAssemblyReference.cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\bin\Debug\eMailModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\bin\Debug\eMailModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Debug\eMailModule.csprojResolveAssemblyReference.cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Debug\eMailModule.eMailModuleModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Debug\eMailModule.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Debug\eMailModule.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Debug\eMailModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\eMailModule\obj\Debug\eMailModule.pdb

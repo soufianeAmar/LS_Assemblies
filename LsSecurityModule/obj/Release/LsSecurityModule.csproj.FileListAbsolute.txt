@@ -1,0 +1,7 @@
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\bin\Release\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\bin\Release\LsSecurityModule.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Release\LsSecurityModule.LsSecurityModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Release\LsSecurityModule.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Release\LsSecurityModule.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Release\LsSecurityModule.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\FinancePro\LsSecurityModule\obj\Release\LsSecurityModule.pdb

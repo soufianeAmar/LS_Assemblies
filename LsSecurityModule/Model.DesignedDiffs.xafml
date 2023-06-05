@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo" PreferredLanguage="(Default language)">
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="LsSecuritySystemRole_ActionPermissions_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <DetailView Id="LsSecuritySystemRole_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="13.805970149253731">
+            <LayoutGroup Id="LsSecuritySystemRole" Direction="Horizontal" RelativeSize="0.90090090090090091" Caption="Role type">
+              <LayoutItem Id="roleType" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemRoleBase" Index="1" RelativeSize="99.099099099099092">
+              <LayoutItem Id="Name" SizeConstraintsType="Default" RelativeSize="29.09090909090909" />
+              <LayoutItem Id="roleType" ViewItem="roleType" SizeConstraintsType="Default" Index="1" RelativeSize="21.818181818181817" IsNewNode="True" />
+              <LayoutItem Id="IsAdministrative" SizeConstraintsType="Default" RelativeSize="21.818181818181817" Index="2" />
+              <LayoutItem Id="CanEditModel" SizeConstraintsType="Default" RelativeSize="27.272727272727273" Index="3" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="86.194029850746276">
+            <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+              <LayoutItem Id="TypePermissionMatrix" ViewItem="TypePermissionMatrix" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="ActionPermissions" Direction="Vertical" RelativeSize="100" Index="1">
+              <LayoutItem Id="ActionPermissions" SizeConstraintsType="Default" Index="0" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Users" RelativeSize="100" Index="2">
+              <LayoutItem Id="Users" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" Index="3" RelativeSize="100">
+              <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ChildRoles" RelativeSize="100" Index="3" Removed="True">
+              <LayoutItem Id="ChildRoles" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ParentRoles" RelativeSize="100" Index="4" Removed="True">
+              <LayoutItem Id="ParentRoles" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="TypePermissions" RelativeSize="100" Index="5" Removed="True">
+              <LayoutItem Id="TypePermissions" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="LsSecuritySystemRole_LookupListView" AllowNew="False" />
+    <DetailView Id="LsSecuritySystemUser_DetailView" DefaultFocusedItem="UserName">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" Caption="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="80.533333333333331">
+            <LayoutItem Id="fullName" ViewItem="fullName" SizeConstraintsType="Default" Index="0" RelativeSize="5.298013245033113" IsNewNode="True" />
+            <LayoutGroup Id="Item5" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="19.867549668874172" Caption="Logon information" IsNewNode="True">
+              <LayoutGroup Id="Autob1460e35-597d-40a0-b92c-052e0e87105a" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="40.425531914893618" IsNewNode="True">
+                <LayoutItem Id="UserName" ViewItem="UserName" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="50" ViewItem="" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="ChangePasswordOnFirstLogon" ViewItem="ChangePasswordOnFirstLogon" SizeConstraintsType="Default" Index="1" RelativeSize="25.531914893617021" IsNewNode="True" />
+              <LayoutItem Id="IsActive" ViewItem="IsActive" SizeConstraintsType="Default" Index="2" RelativeSize="34.042553191489361" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="LsSecuritySystemUser" RelativeSize="40.2317880794702" Index="2" Caption="Personal information">
+              <LayoutGroup Id="Auto91909484-78a7-4364-88f2-ea67eb8d2774" ShowCaption="False" Index="0" RelativeSize="68.598382749326149" IsNewNode="True">
+                <LayoutGroup Id="Autoc9f0d025-8782-49f0-852a-c7102e8e8ea4" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="16.129032258064516" IsNewNode="True">
+                  <LayoutItem Id="firstName" ViewItem="firstName" SizeConstraintsType="Default" Index="0" RelativeSize="49.70530451866405" IsNewNode="True" />
+                  <LayoutItem Id="middleName" ViewItem="middleName" SizeConstraintsType="Default" Index="1" RelativeSize="50.29469548133595" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto1c385746-e095-47e7-8e4a-ca559cc0ed65" ShowCaption="False" Index="1" RelativeSize="83.870967741935488" IsNewNode="True">
+                  <LayoutGroup Id="Auto2519aee7-85e0-40ae-9d4d-a221fed0fc9c" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="18.131868131868131" IsNewNode="True">
+                    <LayoutItem Id="lastName" ViewItem="lastName" SizeConstraintsType="Default" Index="0" RelativeSize="49.70530451866405" IsNewNode="True" />
+                    <LayoutItem Id="Item4" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="50.29469548133595" ViewItem="" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Auto0e8e02b1-7b75-4af7-abea-0818db131d5d" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="81.868131868131869" IsNewNode="True">
+                    <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="50.491159135559919" Caption="Contact information" IsNewNode="True">
+                      <LayoutItem Id="eMail" ViewItem="eMail" SizeConstraintsType="Default" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                      <LayoutItem Id="cellPhone" ViewItem="cellPhone" SizeConstraintsType="Default" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                      <LayoutItem Id="landLine" ViewItem="landLine" SizeConstraintsType="Default" Index="2" RelativeSize="50" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="49.508840864440081" Caption="Social Media" IsNewNode="True">
+                      <LayoutItem Id="gmailAccount" ViewItem="gmailAccount" SizeConstraintsType="Default" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                      <LayoutItem Id="facebookAccount" ViewItem="facebookAccount" SizeConstraintsType="Default" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                      <LayoutItem Id="twitterAccount" ViewItem="twitterAccount" SizeConstraintsType="Default" Index="2" RelativeSize="21.428571428571427" IsNewNode="True" />
+                      <LayoutItem Id="linkedinAccount" ViewItem="linkedinAccount" SizeConstraintsType="Default" Index="3" RelativeSize="28.571428571428573" IsNewNode="True" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutItem Id="picture" ViewItem="picture" SizeConstraintsType="Default" Index="1" RelativeSize="31.401617250673855" IsNewNode="True" />
+              <LayoutGroup Id="LsSecuritySystemUser_col1" RelativeSize="50" Removed="True">
+                <LayoutItem Id="Item1" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="6" RelativeSize="6.1728395061728394" IsNewNode="True" />
+                <LayoutItem Id="cellPhone" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="eMail" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="firstName" SizeConstraintsType="Default" RelativeSize="19.753086419753085" />
+                <LayoutItem Id="fullName" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="lastName" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="middleName" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+              </LayoutGroup>
+              <LayoutGroup Id="LsSecuritySystemUser_col2" RelativeSize="50" Removed="True">
+                <LayoutItem Id="facebookAccount" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="gmailAccount" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="landLine" SizeConstraintsType="Default" RelativeSize="19.753086419753085" />
+                <LayoutItem Id="linkedinAccount" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+                <LayoutItem Id="picture" SizeConstraintsType="Default" RelativeSize="20.987654320987655" />
+                <LayoutItem Id="twitterAccount" SizeConstraintsType="Default" RelativeSize="14.814814814814815" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="SecuritySystemUserBase" Index="3" RelativeSize="34.602649006622514" Direction="Horizontal">
+              <LayoutItem Id="ChangePasswordOnFirstLogon" Removed="True" />
+              <LayoutItem Id="IsActive" Removed="True" />
+              <LayoutItem Id="UserName" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="19.466666666666665">
+            <LayoutGroup Id="Roles" Index="0" RelativeSize="100">
+              <LayoutItem Id="Roles" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" Index="1" RelativeSize="100">
+              <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="LsSecuritySystemUser_LookupListView" AllowNew="False" />
+    <ListView Id="SecuritySystemActionPermissionObject_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+  </Views>
+</Application>

@@ -1,0 +1,11 @@
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LSAdmin.Module.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\LSAdmin.Module.pdb
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\AutomaticUpdater.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\bin\Debug\AutomaticUpdater.xml
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.csprojResolveAssemblyReference.cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\ICAdmin.Module.DBPathVC.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\ICAdmin.Module.ModuleModule.resources
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.csproj.GenerateResource.Cache
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.dll.licenses
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.dll
+D:\Leadersoft\My Projects\My Visual Studio Projects\Clastou\LSAdmin.Module\obj\Debug\LSAdmin.Module.pdb

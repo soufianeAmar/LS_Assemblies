@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application ProtectedContentText="Contenu protégé">
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="Annuler" />
+      <Action Id="ChangePasswordByUser" Caption="Changer mon mot de passe" />
+      <Action Id="CopyModelDifference" Caption="Copier la différence de model" ToolTip="Copie les paramètres (différences de modèle) d'un utilisateur à un autre. Sélectionner les paramètres de source (différences de modèles), cliquer sur ce bouton et choisir des cibles dans le menu contextuel invoqué. Les modifications sont activées après qu'un utilisateur redémarre l'application." />
+      <Action Id="CreateDashboard" Caption="Créer un tableau de bord" />
+      <Action Id="CreateModelDifferences" Caption="Créer des différences de modèle" ToolTip="Initialise les paramètres (différences de modèle) pour tous les utilisateurs." />
+      <Action Id="Delete" Caption="Supprimer" ConfirmationMessage="Vous êtes sur le point de supprimer le ou les enregistrements sélectionné. Continuer ?" />
+      <Action Id="Delete Item" Caption="Supprimer l'élément" ConfirmationMessage="Vous êtes sur le point de supprimer les éléments sélectionnés. Continuer ?" />
+      <Action Id="Deny_TypePermissionMatrixItem" Caption="Refuser">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="Create" Caption="Créer" />
+          <ChoiceActionItem Id="Delete" Caption="Supprimer" />
+          <ChoiceActionItem Id="Deny All" Caption="Refus total" />
+          <ChoiceActionItem Id="Deny Modification" Caption="Refuser la Modification" />
+          <ChoiceActionItem Id="Navigate" Caption="Naviguer" />
+          <ChoiceActionItem Id="Read" Caption="Lire" />
+          <ChoiceActionItem Id="Write" Caption="Écrire" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="Diagnostic Info.Actions Info">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="Actions Info" Caption="Info des actions" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="Diagnostic Info.View Info">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="View Info" Caption="Information de la vue" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="DialogCancel" Caption="Annuler" />
+      <Action Id="DialogClose" Caption="Fermer" />
+      <Action Id="ExportModelDifferences" Caption="Exporter les différences de modèle" ToolTip="Exporte les paramètres sélectionnés (différences de modèle) au dossier {0}." />
+      <Action Id="FullTextSearch" Caption="Filtrer par texte" ShortCaption="Rechercher" NullValuePrompt="Texte à rechercher..." ToolTip="Filtrer les enregistrements par texte" />
+      <Action Id="Grant_TypePermissionMatrixItem" Caption="Autoriser">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="Create" Caption="Créer" />
+          <ChoiceActionItem Id="Delete" Caption="Supprimer" />
+          <ChoiceActionItem Id="Full Access" Caption="Accès total" />
+          <ChoiceActionItem Id="Navigate" Caption="Naviguer" />
+          <ChoiceActionItem Id="Read" Caption="Lire" />
+          <ChoiceActionItem Id="Read Only Access" Caption="Accès en lecture seule" />
+          <ChoiceActionItem Id="Write" Caption="Écrire" />
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="HideItemsFromDashboard" Caption="Cacher de tableau de bord" ToolTip="Masquer les éléments sélectionnés du tableau de bord" />
+      <Action Id="ImportSharedModelDifference" Caption="Importer la Différence de Modèle partagée" ConfirmationMessage="Vous êtes sur le point de remplacer les paramètres partagés (différences de modèle) avec le contenu du fichier {0}. Ça ne pourra pas être annulé. Continuer?" ToolTip="Importe les paramètres partagées (différences de modèle) à partir du fichier {0} situé dans le dossier de l'application." />
+      <Action Id="Link" Caption="Associer" />
+      <Action Id="ListViewShowObject" Caption="Ouvrir" />
+      <Action Id="Logoff" Caption="Fermer la session" />
+      <Action Id="Logon" Caption="Ouvrir une session" />
+      <Action Id="MyDetails" Caption="Mes Details" />
+      <Action Id="NavigateBack" Caption="Précédent" ToolTip="Accéder à la vue précédente" />
+      <Action Id="NavigateForward" Caption="Vers l'avant" ToolTip="Accéder à la vue suivante" />
+      <Action Id="New" Caption="Nouveau">
+        <DisableReasons>
+          <Reason Id="MasterObjectIsNew" Caption="L'objet modifié est nouveau." />
+        </DisableReasons>
+      </Action>
+      <Action Id="NextObject" Caption="Enregistrement suivant" />
+      <Action Id="OrganizeDashboard" Caption="Organiser le tableau de bord" />
+      <Action Id="PreviousObject" Caption="Enregistrement précédent" />
+      <Action Id="Refresh" Caption="Actualiser" />
+      <Action Id="ResetModelDifferences" Caption="Réinitialiser les Différences de modèle" ConfirmationMessage="Vous êtes sur le point de réinitialiser les paramètres sélectionnés (différences de modèle). Continuer?" ToolTip="Réinitialise les paramètres sélectionnés (différences de modèle). Les modifications sont appliquées après qu'un utilisateur redémarre l'application." />
+      <Action Id="ResetPassword" Caption="Réinitialiser le mot de passe" ToolTip="Générer un nouveau mot de passe pour l'utilisateur sélectionné" />
+      <Action Id="Save" Caption="Enregistrer" />
+      <Action Id="SaveAndClose" Caption="Enregistrer et fermer" />
+      <Action Id="SaveAndNew" Caption="Enregistrer et nouveau" />
+      <Action Id="SetFilter" Caption="Filtrer" />
+      <Action Id="ShowItemsOnDashboard" Caption="Afficher sur le tableau de bord" ToolTip="Afficher les éléments sélectionnés sur le tableau de bord" />
+      <Action Id="Unlink" Caption="Dissocier" ConfirmationMessage="Vous êtes sur le point de dissocier le ou les enregistrements sélectionné. Continuer ?" />
+    </Actions>
+    <DisableReasons>
+      <Reason Id="ByContext_RequireMultipleObjects" Caption="Nécessite au moins un objet sélectionné" />
+      <Reason Id="ByContext_RequireSingleObject" Caption="Nécessite un objet unique sélectionnée" />
+      <Reason Id="Security" Caption="Permission refusée" />
+    </DisableReasons>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Editors.CriteriaProvider" Caption="Fournisseur de critères">
+      <OwnMembers>
+        <Member Name="FilteredObjectsType" Caption="Type d'objets filtrés" />
+        <Member Name="FilterString" Caption="Texte de filtre" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de passe" />
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ChangePasswordOnLogonParameters" Caption="Changer mot de passe sur les paramètres d'ouverture de session">
+      <OwnMembers>
+        <Member Name="ConfirmPassword" Caption="Confirmer le mot de passe" />
+        <Member Name="NewPassword" Caption="nouveau mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ChangePasswordParameters" Caption="Paramètres de changement du mot de passe">
+      <OwnMembers>
+        <Member Name="OldPassword" Caption="ancien mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.EditModelPermission" Caption="Autorisation de modification du modèle" />
+    <Class Name="DevExpress.ExpressApp.Security.ObjectAccessPermission" Caption="Autorisation d'accès au objets">
+      <OwnMembers>
+        <Member Name="CreateAccess" Caption="Accès en création" />
+        <Member Name="DeleteAccess" Caption="Accès en suppression" />
+        <Member Name="NavigateAccess" Caption="Accès de navigation" />
+        <Member Name="ObjectType" Caption="Type d'objet" />
+        <Member Name="ReadAccess" Caption="Accès en lecture" />
+        <Member Name="WriteAccess" Caption="Accès en écriture" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ResetPasswordParameters" Caption="Paramètres de réinitialisation du mot de passe">
+      <OwnMembers>
+        <Member Name="Password" Caption="Mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.PermissionMatrix.TypePermissionMatrixItem" Caption="Elément de la matrisse d'autorisation de type">
+      <OwnMembers>
+        <Member Name="AllowCreate" Caption="Créer" />
+        <Member Name="AllowDelete" Caption="Supprimer" />
+        <Member Name="AllowNavigate" Caption="Naviguer" />
+        <Member Name="AllowRead" Caption="Lire" />
+        <Member Name="AllowWrite" Caption="Écrire" />
+        <Member Name="Category" Caption="Catégorie" />
+        <Member Name="MemberPermissions" Caption="Autorisations des membres" />
+        <Member Name="Object" Caption="Objet" />
+        <Member Name="ObjectPermissions" Caption="Autorisations des objets" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemMemberPermissionsObject" Caption="Autorisation des opérations sur les membres">
+      <OwnMembers>
+        <Member Name="AllowRead" Caption="Autoriser la lecture" />
+        <Member Name="AllowWrite" Caption="Autoriser Ecrire" />
+        <Member Name="Criteria" Caption="Critères" />
+        <Member Name="EffectiveRead" Caption="Lire" />
+        <Member Name="EffectiveWrite" Caption="Écrire" />
+        <Member Name="InheritedFrom" Caption="Hérité de" />
+        <Member Name="Members" Caption="Membres" />
+        <Member Name="Owner" Caption="Propriétaire" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemObjectPermissionsObject" Caption="Autorisations des opérations sur les objets">
+      <OwnMembers>
+        <Member Name="AllowDelete" Caption="Autoriser la suppression" />
+        <Member Name="AllowNavigate" Caption="Autoriser la naviguation" />
+        <Member Name="AllowRead" Caption="Autoriser la lecture" />
+        <Member Name="AllowWrite" Caption="Autoriser Ecrire" />
+        <Member Name="Criteria" Caption="Critères" />
+        <Member Name="EffectiveDelete" Caption="Supprimer" />
+        <Member Name="EffectiveNavigate" Caption="Naviguer" />
+        <Member Name="EffectiveRead" Caption="Lire" />
+        <Member Name="EffectiveWrite" Caption="Écrire" />
+        <Member Name="InheritedFrom" Caption="Hérité de" />
+        <Member Name="Owner" Caption="Propriétaire" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemRole" Caption="Rôle">
+      <OwnMembers>
+        <Member Name="ChildRoles" Caption="Rôles enfants" />
+        <Member Name="ParentRoles" Caption="Rôles Parents" />
+        <Member Name="Users" Caption="Utilisateurs" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemRoleBase" Caption="Rôle de base">
+      <OwnMembers>
+        <Member Name="CanEditModel" Caption="Peut modifier le Modèle" />
+        <Member Name="IsAdministrative" Caption="Est administratif" />
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionObject" Caption="Autorisation des opérations sur les types">
+      <OwnMembers>
+        <Member Name="Owner" Caption="Propriétaire" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectBase" Caption="Autorisation des opération sur les types de base">
+      <OwnMembers>
+        <Member Name="AllowCreate" Caption="Créer" />
+        <Member Name="AllowDelete" Caption="Supprimer" />
+        <Member Name="AllowNavigate" Caption="Naviguer" />
+        <Member Name="AllowRead" Caption="Lire" />
+        <Member Name="AllowWrite" Caption="Écrire" />
+        <Member Name="MemberPermissions" Caption="Autorisations des membres" />
+        <Member Name="Object" Caption="Objet" />
+        <Member Name="ObjectPermissions" Caption="Autorisations de l'objet" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemTypePermissionsObjectOwner" Caption="Propriétaire des autorisations des opérations sur les types">
+      <OwnMembers>
+        <Member Name="TypePermissionMatrix" Caption="Autorisations d'accès aux données" />
+        <Member Name="TypePermissions" Caption="Autorisation des types" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemUser" Caption="Utilisateur">
+      <OwnMembers>
+        <Member Name="Roles" Caption="Rôles" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.Strategy.SecuritySystemUserBase" Caption="Système de sécurité de base de l'utilisateur">
+      <OwnMembers>
+        <Member Name="ChangePasswordOnFirstLogon" Caption="Changer mot de passe sur la première ouverture de session" />
+        <Member Name="IsActive" Caption="Est actif" />
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.AboutInfo" Caption="Info à propos">
+      <OwnMembers>
+        <Member Name="AboutInfoString" Caption="Text Info à propos" />
+        <Member Name="Company" Caption="Compagnie" />
+        <Member Name="Copyright" Caption="Droit d'auteur" />
+        <Member Name="LogoImageName" Caption="Nom de l'Image logo" />
+        <Member Name="ProductName" Caption="Nom du produit" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ActionContainerDashboardOrganizationItem" Caption="Conteneur d'action">
+      <OwnMembers>
+        <Member Name="ActionContainer" Caption="Conteneur d'action" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ActionContainerDescriptor" Caption="Descripteur de conteneur d'action">
+      <OwnMembers>
+        <Member Name="ActionContainerId" Caption="Id de conteneur d'action" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardCreationInfo" Caption="Assistant de création de tableau de bord">
+      <OwnMembers>
+        <Member Name="DashboardName" Caption="Nom" />
+        <Member Name="NavigationGroupName" Caption="Groupe de cible de Navigation" />
+        <Member Name="ViewItems" Caption="Afficher les éléments" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardOrganizationItem" Caption="Elément d'organisation du Tableau de bord">
+      <OwnMembers>
+        <Member Name="Item" Caption="Elément" />
+        <Member Name="Visibility" Caption="Visibilité" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardOrganizer" Caption="Organisateur de tableau de bord">
+      <OwnMembers>
+        <Member Name="ViewItems" Caption="Afficher les éléments" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardViewItemDescriptor" Caption="Descripteur de l'élément de vue tableau de bord">
+      <OwnMembers>
+        <Member Name="ViewCaption" Caption="Légende de la vue" />
+        <Member Name="ViewDescription" Caption="Description de la vue" />
+        <Member Name="ViewId" Caption="Id de la vue" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DiagnosticInfoObject" Caption="Objet de l'information sur le diagnostic">
+      <OwnMembers>
+        <Member Name="AsText" Caption="En tant que texte" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ModelDifferenceCopyParameters" Caption="Copier les différences du modèle">
+      <OwnMembers>
+        <Member Name="CopyBehavior" Caption="Comportement de la copie" />
+        <Member Name="SourceModelDifference" Caption="Différence de modèle de source" />
+        <Member Name="TargetModelDifferences" Caption="Différences du modèle cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.StaticImageDashboardOrganizationItem" Caption="Image statique">
+      <OwnMembers>
+        <Member Name="ImageName" Caption="Nom de l'image" />
+        <Member Name="Preview" Caption="Aperçu" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.StaticTextDashboardOrganizationItem" Caption="Texte statique">
+      <OwnMembers>
+        <Member Name="Text" Caption="Texte" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.ViewDashboardOrganizationItem" Caption="Vue">
+      <OwnMembers>
+        <Member Name="ActionsToolbarVisibility" Caption="Visibilité de barre d'outils des actions" />
+        <Member Name="Criteria" Caption="Critères" />
+        <Member Name="ObjectType" Caption="Type d'objet" />
+        <Member Name="ViewDescriptor" Caption="Vue" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference" Caption="Base vérifiés objet référence faible">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditDataItemPersistent" Caption="Élément de données de vérification persistant">
+      <OwnMembers>
+        <Member Name="ModifiedOn" Caption="Modifié le" />
+        <Member Name="NewValue" Caption="Nouvelle valeur" />
+        <Member Name="OldValue" Caption="Ancienne valeur" />
+        <Member Name="OperationType" Caption="Type d'opération" />
+        <Member Name="PropertyName" Caption="Nom de la propriété" />
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditedObjectWeakReference" Caption="Audités objet référence faible">
+      <OwnMembers>
+        <Member Name="AuditDataItems" Caption="Éléments de données de vérification" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.BaseObject" Caption="Objet de base" />
+    <Class Name="DevExpress.Xpo.PersistentBase" Caption="Base persistante" />
+    <Class Name="DevExpress.Xpo.XPObjectType" Caption="Type de XPObject" />
+    <Class Name="LsSecurityModule.LsSecuritySystemRole" Caption="Rôle">
+      <OwnMembers>
+        <Member Name="ActionPermissions" Caption="Autorisations d'action" />
+        <Member Name="AuditTrail" Caption="Piste d'audit" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LsSecurityModule.LsSecuritySystemUser" Caption="Utilisateur">
+      <OwnMembers>
+        <Member Name="AuditTrail" Caption="Piste d'audit" />
+        <Member Name="cellPhone" Caption="Téléphone cellulaire" />
+        <Member Name="facebookAccount" Caption="Compte Facebook" />
+        <Member Name="firstName" Caption="Prénom" />
+        <Member Name="fullName" Caption="Nom et prénom" />
+        <Member Name="gmailAccount" Caption="Compte GMail" />
+        <Member Name="landLine" Caption="Ligne terrestre" />
+        <Member Name="lastName" Caption="Nom de famille" />
+        <Member Name="linkedinAccount" Caption="Compte LinkedIn" />
+        <Member Name="middleName" Caption="Deuxième prénom" />
+        <Member Name="picture" Caption="Photo" />
+        <Member Name="twitterAccount" Caption="Compte Twitter" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LsSecurityModule.SecuritySystemActionPermissionObject" Caption="Autorisation d'action" />
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Captions">
+      <LocalizationItem Name="DiagnosticChildWindowAddition" Value="(Fenêtre enfant)" />
+      <LocalizationItem Name="EditCriteria" Value="Modifier les critères" />
+      <LocalizationItem Name="View" Value="Vue" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="DashboardOrganizationItems">
+      <LocalizationItem Name="StaticText" Value="Texte" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="DialogButtons">
+      <LocalizationItem Name="Abort" Value="Interrompre" />
+      <LocalizationItem Name="Add" Value="Ajouter" />
+      <LocalizationItem Name="Apply" Value="Appliquer" />
+      <LocalizationItem Name="Back" Value="&lt; Précédent" />
+      <LocalizationItem Name="Cancel" Value="&amp;Annuler" />
+      <LocalizationItem Name="Clear" Value="Ef&amp;facer" />
+      <LocalizationItem Name="Close" Value="Fermer" />
+      <LocalizationItem Name="Find" Value="Rechercher" />
+      <LocalizationItem Name="Ignore" Value="&amp;Ignorer" />
+      <LocalizationItem Name="Next" Value="Suivant &gt;" />
+      <LocalizationItem Name="No" Value="&amp;Non" />
+      <LocalizationItem Name="Remove" Value="Supprimer" />
+      <LocalizationItem Name="Retry" Value="&amp;Réessayer" />
+      <LocalizationItem Name="Yes" Value="&amp;Oui" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.ExpressApp.Editors.ViewItemVisibility" Value="Visibilité de l'élément de vue">
+        <LocalizationItem Name="Hide" Value="Masquer" />
+        <LocalizationItem Name="Show" Value="Afficher" />
+        <LocalizationItem Name="ShowEmptySpace" Value="Afficher l'espace vide" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.ModelDifferenceCopyBehavior" Value="Comportement de la copie des différences du modèle">
+        <LocalizationItem Name="Merge" Value="Fusionner" />
+        <LocalizationItem Name="Overwrite" Value="Écraser" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ModelAccessModifier" Value="Modificateur d'accès au modèle">
+        <LocalizationItem Name="Allow" Value="Autoriser" />
+        <LocalizationItem Name="Deny" Value="Refuser" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ObjectAccess" Value="Accès aux objets">
+        <LocalizationItem Name="AllAccess" Value="Tout accès" />
+        <LocalizationItem Name="ChangeAccess" Value="Changer l'accès" />
+        <LocalizationItem Name="Create" Value="Créer" />
+        <LocalizationItem Name="Delete" Value="Supprimer" />
+        <LocalizationItem Name="Navigate" Value="Naviguer" />
+        <LocalizationItem Name="NoAccess" Value="Pas d'accès" />
+        <LocalizationItem Name="Read" Value="Lire" />
+        <LocalizationItem Name="Write" Value="Écrire" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Security.ObjectAccessModifier" Value="Modificateur d'accès aux objets">
+        <LocalizationItem Name="Allow" Value="Autoriser" />
+        <LocalizationItem Name="Deny" Value="Refuser" />
+        <LocalizationItem Name="None" Value="Aucun" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="DevExpress.ExpressApp.Templates.ActionsToolbarVisibility" Value="Visibilité de la barre d'outils des actions">
+        <LocalizationItem Name="Default" Value="Par défaut" />
+        <LocalizationItem Name="Hide" Value="Masquer" />
+        <LocalizationItem Name="Show" Value="Afficher" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Exceptions">
+      <LocalizationItem Name="CanNotDeleteObject" Value="Vous ne pouvez pas supprimer l'objet '{0}' en raison des restrictions de sécurité." />
+      <LocalizationItem Name="CanNotSaveObject" Value="Vous ne pouvez pas enregistrer l'objet '{0}' en raison des restrictions de sécurité." />
+      <LocalizationGroup Name="SystemExceptions">
+        <LocalizationItem Name="ActionMethodShouldBeNonGeneric" Value="Impossible de créer l'action de la méthode {0} de la classe {1}. La méthode d'action devrait être non générique" />
+        <LocalizationItem Name="ActionMethodShouldBeParameterless" Value="Impossible de créer l'action de la méthode {0} de la classe {1}. La méthode d'action devrait être sans paramètre" />
+        <LocalizationItem Name="AlreadyUsedObjectSpace" Value="Le ObjectSpace a déjà été attribué à une autre vue racine : '{0}'. Cette erreur se produit uniquement lorsque vous essayez d'affecter un ObjectSpace qui est déjà utilisé par une vue racine à une autre vue racine. Par exemple, vous pouvez recevoir cette erreur lors de l'utilisation des méthodes XafApplication.CreateDetailView/CreateListView dans un ViewController et en passant l'objet View.ObjectSpace en tant que paramètre à ces méthodes lorsque la propriété View.IsRoot a la valeur true.\r\nPour éviter cette erreur, il suffit de passer une nouvelle instance de ObjectSpace créée via la méthode XafApplication.CreateObjectSpace dans ces méthodes, ou créer des vues non-racine en passant un paramètre correspondant à ces methods." />
+        <LocalizationItem Name="AnErrorHasOccurredWhileLoadingTheModel" Value="Une erreur s'est produite lors du chargement du modèle. Source : '{0}'" />
+        <LocalizationItem Name="AnErrorHasOccurredWhileProcessingAShortcut" Value="Une erreur s'est produite lors du traitement d'un raccourci : {0}" />
+        <LocalizationItem Name="AnErrorHasOccurredWithContext" Value="Une erreur s'est produite, contexte : {0}" />
+        <LocalizationItem Name="AnUnsavedObjectCannotBeShown" Value="Un dossier nouvellement créé ne peut pas être visible jusqu'à ce qu'il est enregistré. Veuillez enregistrer le dossier pour afficher ses détails dans un formulaire distinct." />
+        <LocalizationItem Name="ApplicationIsNotStarted" Value="L'application n'est pas démarrée" />
+        <LocalizationItem Name="ApplicationUpdaterAssemblyDoesNotExist" Value="L'application ne peut pas être mise à jour, car la  l'Assemblée '{1} n'existe pas dans le dossier {0}." />
+        <LocalizationItem Name="ApplicationUpdaterDatabaseVersionIsNewer" Value="Impossible d'exécuter l'application. La version de base de données est plus récente que la version de l'application, mais le serveur avec la nouvelle version de l'application est introuvable. Demandez à l'administrateur de vérifier que le fichier de configuration contient un chemin d'accès correct vers la nouvelle version de l'application." />
+        <LocalizationItem Name="AttributeModifyingFailed" Value="La modification de l'attribut a échoué" />
+        <LocalizationItem Name="AttributeShouldStartWithSymbol" Value="L'attribut '{0}' doit commencer par le symbole '@': '{1}'" />
+        <LocalizationItem Name="CannotAccessCollectionCollectionSourceIsBeingIntialized" Value="Vous ne pouvez pas accéder à la propriété Collection parce que la Collection Source est initialisée maintenant. Cette erreur peut se produire, par exemple, lorsque vous essayez d'accéder à la propriété Collection dans la méthode OnActivated d'un ViewController. Pour éviter cette erreur, il est nécessaire d'accéder à la propriété Collection à un moment plus tard, lorsque la Collection Source est déjà initialisé. La meilleure façon de le faire est de gérer l'événement CollectionChanged. Veuillez vous référer à la documentation du produit pour des informations plus détaillées sur ces classes et méthodes." />
+        <LocalizationItem Name="CannotAddCollectionProperty" Value="Vous ne pouvez pas ajouter la collection '{0}'" />
+        <LocalizationItem Name="CannotAddDuplicateProperty" Value="Vous ne pouvez pas ajouter un double d'un éditeur de propriété: '{0}'" />
+        <LocalizationItem Name="CannotAddToEmptySingleton" Value="Vous ne pouvez pas ajouter à un singleton vide. Créez une nouvelle instance de la collection" />
+        <LocalizationItem Name="CannotCreateAppropriateDetailItem" Value="Impossible de créer un objet de détail approprié pour le '{0}'" />
+        <LocalizationItem Name="CannotCreateAppropriatePropertyEditorForTheProperty" Value="Ne peut pas créer l'éditeur appropriée pour la propriété '{0}. {1}'" />
+        <LocalizationItem Name="CannotCreateSchemaForAttribute" Value="Ne peut pas changer le schéma de l'attribut" />
+        <LocalizationItem Name="CannotCreateTemplateByName" Value="Ne peut pas créer un modèle par son nom: '{0}'" />
+        <LocalizationItem Name="CannotFindDescendantOfXafApplicationClass" Value="Ne peut pas trouver un descendant de la classe XafApplication pour détecter les paramètres de votre application dans le dossier suivant (s):\n\r{0}\n\rPour une application Windows Forms, ce dossier (s) doit contenir le fichier exécutable de votre application.  Pour une application ASP.NET, ce dossier (s) doit contenir l'assembée contenant le descendant de votre WebApplication." />
+        <LocalizationItem Name="CannotFindListViewWithId" Value="Ne peut pas trouver la ListView avec ID = '{0}'" />
+        <LocalizationItem Name="CannotFindTheMemberWithinTheClass" Value="Ne peut pas trouver le membre {0}' au sein de la classe '{1}'" />
+        <LocalizationItem Name="CannotFindThePropertyWithinTheClass" Value="Ne peut pas trouver la propriété {0}' dans la classe '{1}'" />
+        <LocalizationItem Name="CannotGenerateContent" Value="Ne peut pas générer le contenu: l'attribut 'ClassName' est vide" />
+        <LocalizationItem Name="CannotObtainTheEditingObject" Value="Ne peut pas obtenir l'objet de l'édition" />
+        <LocalizationItem Name="CannotProcessTheRequestedUrl" Value="Ne peut pas traiter l'URL demandée" />
+        <LocalizationItem Name="CannotProcessTheRequestedUrlActionItemWasNotFound" Value="Ne peut pas traiter l'url demandée, l'élément d'action {0}' n'a pas été trouvé" />
+        <LocalizationItem Name="CannotReadDictionaryFromResource" Value="Ne peut pas lire le dictionnaire à partir de la ressource '{0}' de l'Assemblée '{1}'" />
+        <LocalizationItem Name="CannotSetEditValueAvailableValues" Value="Ne peut pas mettre EditValue à la valeur texte '{0}', les valeurs disponibles:\r\n{1}" />
+        <LocalizationItem Name="CannotSetEditValueListIsEmpty" Value="Ne peut pas mettre EditValue à la valeur texte '{0}', la liste est vide" />
+        <LocalizationItem Name="CannotShowViewUnknownContext" Value="Ne peut pas afficher la vue, contexte inconnu: &quot;{0}'" />
+        <LocalizationItem Name="CannotShowViewUnknownTarget" Value="Ne peut pas afficher la vue, cible inconnue: '{0}'" />
+        <LocalizationItem Name="ClassDoesntImplementInterface" Value="La classe '{0}' n'implémente pas l'interface '{1}'" />
+        <LocalizationItem Name="CompatibilityApplicationIsOldError" Value="La version de base de données est supérieure à la version de l'application. L'application doit être mise à jour. Veuillez contacter votre administrateur système ou télécharger une nouvelle version \r\nInformations supplémentaires : La version locale {0} du module '{1}' est inférieure à la version {2} dans la base de données" />
+        <LocalizationItem Name="CompatibilityDatabaseIsOldError" Value="La version de la base de données est supérieure à la version de l'application. La base de données doit être mise à jour." />
+        <LocalizationItem Name="ConfigFileDoesNotExists" Value="Fichier Config '{0}' n'existe pas" />
+        <LocalizationItem Name="ConfigFileHasNoModuleNames" Value="Le noeud 'Ajouter\[@ clé = &quot;Modules&quot;]' doit contenir la liste des modules, le fichier de configuration '{0 } '" />
+        <LocalizationItem Name="CurrentObjectIsNotSet" Value="Impossible de définir la propriété '{0}'. L'objet courant n'est pas défini" />
+        <LocalizationItem Name="CustomizePopupWindowParamsEventArgsViewIsNull" Value="Pour éviter cette erreur, il est nécessaire d'assigner la propriété CustomizePopupWindowParamsEventArgs.View lors de la manipulation de l'événement CustomizePopupWindowParams. Pour ce faire, créez une vue en utilisant les méthodes XafApplication.CreateDetailView/CreateListView. Veuillez vous référer à la documentation du produit pour des informations plus détaillées sur ces classes et méthodes." />
+        <LocalizationItem Name="DataLayerAlreadyExists" Value="Un dataLayer existe déjà: '{0}'" />
+        <LocalizationItem Name="DictionaryPathItemParsingFailed" Value="L'analyse syntaxique des éléments du chemin du dictionnaire a échoué. Il ya une erreur de syntaxe dans l'expression '{0}'" />
+        <LocalizationItem Name="DictionaryPathParsingFailed" Value="L'analyse syntasique du chemin du dictionnaire a échoué. Il ya une erreur de syntaxe dans l'expression '{0}'" />
+        <LocalizationItem Name="DuplicateComponentIdentifier" Value="Identificateur de Composant Dupliqué '{0}'" />
+        <LocalizationItem Name="ErrorOccursWhileAddingTheCustomProperty" Value="L'erreur se produit en ajoutant la propriété personnalisée '{2}' (type de la propriété '{0}')  au type '{1}': '{3}'" />
+        <LocalizationItem Name="ExceptionDialogLabel" Value="L'erreur suivante s'est produite:" />
+        <LocalizationItem Name="GridColumnDoesNotExist" Value="La colonne '{0}' n'existe pas dans la grille" />
+        <LocalizationItem Name="GridColumnExists" Value="La colonne '{0}' existe déjà dans la Grille" />
+        <LocalizationItem Name="GridControlIsAlreadyCreated" Value="Vous ne pouvez pas définir la propriété EditMode. GridControl a été déjà créé" />
+        <LocalizationItem Name="IncompatibleParametersCombinationOnViewChanged" Value="combinaison des paramètres incompatibles. Le popupWindow a le même ObjectSpace que la vue principal. Toutefois, la propriété SaveOnAccept du DialogController de la fenêtre contextuelle est définie à true. Utilisez un nouvel ObjectSpace pour la fenêtre contextuelle invoquée ou définissez la propriété DialogController.SaveOnAccept à false." />
+        <LocalizationItem Name="IncorrectConfigFile" Value="Le fichier config passé '{0}' ne contient pas le noeud '&lt;add key = &quot;Modules&quot;'" />
+        <LocalizationItem Name="InfiniteRecursionDetected" Value="Récursion infinie détectée:. La vue détaillée '{0}' était créé {1} fois" />
+        <LocalizationItem Name="InfiniteRecursionDetectedInGenerateColumns" Value="Récursion infinie détectée: pour la classe '{0}' à l'appel 'GenerateColumns' {1} ​​fois" />
+        <LocalizationItem Name="InvalidApplicationVersion" Value="version non valide d'application sur '{0}'" />
+        <LocalizationItem Name="InvalidParametrizedActionValueType" Value="Un type de valeur non valide est affectée à l'action paramétrée '{0}'. Utilisez le type Int, String ou un type DateTime à la place." />
+        <LocalizationItem Name="InvalidValueOfEnumProperty" Value="La propriété {1} de l'objet {0} a une valeur incorrecte de {2}. Initialisez la propriété avec une valeur d'énumération {3} correct dans la méthode AfterConstruction de la classe {4}." />
+        <LocalizationItem Name="IsNotValidNamespacePrefixDescription" Value="'{0}' n'est pas une description de préfixe d'espace de noms valide" />
+        <LocalizationItem Name="ItsImpossibleToFindPathForNode" Value="Il est impossible de trouver Chemin = '{0}' pour le noeud '{1}'" />
+        <LocalizationItem Name="ItsImpossibleToFindSourceNode" Value="Il est impossible de trouver Noeud source = '{0}\\{1}'" />
+        <LocalizationItem Name="LayoutControlInvalidCount" Value="compte incorrect: '{0}'" />
+        <LocalizationItem Name="ListEditorShouldImplement" Value="ListEditor doit implémenter l'interface IDXPopupMenuHolder" />
+        <LocalizationItem Name="MethodShouldBeUsed" Value="La méthode '{0}' doit être utilisée" />
+        <LocalizationItem Name="ModulesHasAlreadyBeenLoaded" Value="Le modules a déjà été chargé" />
+        <LocalizationItem Name="NameAndValueCollectionsShouldHaveEqualLengths" Value="Les collections de noms et de valeurs devraient avoir des longueurs égales" />
+        <LocalizationItem Name="NodeContainsDuplicatedChildNodes" Value="Le noeud '{0}' contient deux nœuds enfants avec la valeur '{1}' de l'attribut clé. \r\nNode1: '{2}'\r\nNoeud2: '{3}'" />
+        <LocalizationItem Name="NodeWasNotFound" Value="Le noeud '{0}' n'a pas été trouvé" />
+        <LocalizationItem Name="NotRegisteredReadOnlyParameterException" Value="Le paramètre '{0}' en lecture seule n'est pas inscrit dans le ParametersFactory" />
+        <LocalizationItem Name="ObjectFormatterFormatStringIsInvalid" Value="L'objet ne peut pas être formaté parce que la chaîne de format spécifiée est invalide:. '{0}'" />
+        <LocalizationItem Name="PageCanOnlyContainOneInstanceOfControl" Value="La page peut contenir une seule instance du control '{0}'" />
+        <LocalizationItem Name="ParameterConflictsWithPropertyException" Value="Le critère contient le paramètre '{0}' en lecture seule qui est en conflit avec la propriété '{0}' de la classe '{1}'. Pour consulter le paramètre en lecture seule, utilisez la syntaxe '@@{0}'. Pour faire référence à la propriété, utiliser la syntaxe '@This.{0}' syntaxe." />
+        <LocalizationItem Name="PassedObjectBelongsToAnotherObjectSpace" Value="L'objet qui a été transmis appartien à un autre ObjectSpace. Cette erreur peut se produire lorsque vous manipulez vos objets via un ObjectSpace dont ces objets ne font pas partie. Par exemple, vous pouvez recevoir cette erreur lorsque vous utilisez la méthode XafApplication.CreateDetailView au cas où vous passiez un objet qui a été obtenu à partir d'un autre ObjectSpace que le ObjectSpace utilisé comme paramètre dans cette méthode. Pour corriger cette erreur, vous devez vous assurer que tous les objets que vous manipulez appartiennent à un seul ObjectSpace.\r\nDans la plupart des cas, pour éviter cette erreur, il suffit d'appeler les méthodes ObjectSpace.GetObject/GetObjectByKey pour obtenir un objet passé dans le ObjectSpace cible." />
+        <LocalizationItem Name="PermissionIsDenied" Value="L'autorisation est refusée" />
+        <LocalizationItem Name="ProcessWasAborted" Value="Le processus a été interrompu" />
+        <LocalizationItem Name="RequiresCurrentObjectException" Value="Ne peut pas mettre à jour le CriteriaWrapper parce que le critère utilise des paramètres dynamiques, mais l'objet en cours n'est pas spécifié. Pour mettre à jour le CriteriaWrapper, appelez la méthode UpdateParametersValues ​​(Object currentObject) et passer l'objet courant comme paramètre." />
+        <LocalizationItem Name="ResourceItemWithNameIsNotFound" Value="L'élément de ressource avec le nom '{0}' n'est pas trouvé" />
+        <LocalizationItem Name="RuleSetClearingIsDenied" Value="La supression de RuleSet est refusé" />
+        <LocalizationItem Name="SourceAttributeExpressionShouldStartWith" Value="L'expression de l'attribut Source doit commencer par '{0}': '{1}'" />
+        <LocalizationItem Name="SourceAttributePathShouldConsistOf" Value="Chemin d'attribut Source devrait être composé d'un ou plusieurs nom de noeud et du nom de l'attribut à a la fin, qui sont délimitées par le symbole '\\': '{0}'" />
+        <LocalizationItem Name="SourceNodeExpressionShouldStartWith" Value="L'expression SourceNode doit commencer par '{0}': '{ 1} '" />
+        <LocalizationItem Name="TemplateTypeInfoMissed" Value="Ne peut pas trouver TypeInfo pour le type' {0} '. Vous devriez mettre votre modèle dans un module XAF, ou l'inscrire manuellement à l'aide de la méthode XafTypesInfo.Instance.FindTypeInfo (typeof ({0}))." />
+        <LocalizationItem Name="TheAspectIsNotPresentInAspectsCollection" Value="L'aspect '{0}' n'est pas présent dans la collection des aspects" />
+        <LocalizationItem Name="TheAssemblyDoesntReferAssembly" Value="L'Assemblée '{0}' ne référence pas l'Assemblée {1} ({2})" />
+        <LocalizationItem Name="TheClassIsNotFoundInBOModel" Value="La classe '{0}' n'est pas trouvée pas dans le BOModel" />
+        <LocalizationItem Name="TheClassNameAttributeIsEmpty" Value="L'attribut ClassName du noeud de vue référencée est vide:" />
+        <LocalizationItem Name="TheClassNameAttributeRefersToADifferentType" Value="L'attribut ClassName du noeud de vue référencée se réfère à un type différent.\r\nType d'objet de raccourci : {0}\r\nType d'objet de noeud de vue: {1}" />
+        <LocalizationItem Name="TheCreateApplicationModulesManagerReturnsNull" Value="La méthode de CreateApplicationModulesManager renvoie null" />
+        <LocalizationItem Name="TheExpressionShouldConsistOf" Value="L'expression devrait consister en l'expression de recherche et le nom d'attribut source qui sont délimitées par le symbole ';': '{0}'" />
+        <LocalizationItem Name="TheExpressionStringContainsANumberOfExpressions" Value="La chaîne 'expressionString' contient {0} expressions" />
+        <LocalizationItem Name="ThePassedFileIsNotADllOrConfig" Value="Le fichier transmis '{0}' n'est pas un fichier *.dll ou *.config" />
+        <LocalizationItem Name="ThereIsAlreadyRegisteredCreatorForFormat" Value="Il existe déjà un créateur enregistré pour le format '{0}'" />
+        <LocalizationItem Name="TheTypeAttributeCannotBeEmpty" Value="L'attribut 'Type' ne peut pas être vide" />
+        <LocalizationItem Name="TheTypeIsNotDescendantOf" Value="le type {0}' n'est pas un descendant de '{1}'" />
+        <LocalizationItem Name="TheValueWasLocked" Value="La valeur a été verrouillé" />
+        <LocalizationItem Name="TypeDoesNotContainTheMember" Value="Le type '{0}' ne contient pas le membre '{1}'" />
+        <LocalizationItem Name="TypeIsNotAEnum" Value="Le type '{0}' n'est pas un type d'énumération" />
+        <LocalizationItem Name="UnableToAssignDisabledActionItem" Value="Impossible d'attribuer un élément désactivé. Action: {0}. Item: {1}. Raisons de désactivation: {2}" />
+        <LocalizationItem Name="UnableToAssignInvisibleActionItem" Value="Impossible d'attribuer un objet invisible. Action: {0}. Item: {1}. Raisons d'invisibilité: {2}" />
+        <LocalizationItem Name="UnableToCast" Value="Impossible de convertir un objet de type '{0}' au type '{1}'" />
+        <LocalizationItem Name="UnableToChangeChildrenOfNodeDueItIsLocked" Value="Impossible de changer les enfants du noeud '{0}' car il est verrouillé." />
+        <LocalizationItem Name="UnableToChangeConnectionString" Value="Impossible de changer la chaîne de connexion. Déjà connecté " />
+        <LocalizationItem Name="UnableToChangeValueOfAttributeDueItIsLocked" Value="Impossible de changer la valeur de l'attribut '{0}' car il est verrouillé" />
+        <LocalizationItem Name="UnableToCreateObjectSpace" Value="Impossible de créer ObjectSpace. Un dataLayer est nulle ou La chaîne de connexion est vide" />
+        <LocalizationItem Name="UnableToCreateUpdateSessionAutoCreateOption" Value="Impossible de créer UpdatingSession. Le dataLayer.AutoCreateOption est {0}" />
+        <LocalizationItem Name="UnableToCreateUpdateSessionDataLayerIsNull" Value="Impossible de créer UpdatingSession. Un dataLayer est nulle ou la chaîne de connexion est vide" />
+        <LocalizationItem Name="UnableToCreateUpdatingReadonlySessionAutoCreateOption" Value="Impossible de créer UpdatingReadOnlySession. Le dataLayer.AutoCreateOption est {0}" />
+        <LocalizationItem Name="UnableToExecuteDisabledOrInactiveAction" Value="Impossible d'exécuter une actiion désactivée ou inactive {2}. Raisons de désactivation: {0}, raisons d'inactivité: {1}" />
+        <LocalizationItem Name="UnableToFindADetailViewForType" Value="Impossible de trouver une vue détail pour le type d'objet '{0}'" />
+        <LocalizationItem Name="UnableToFindAListViewForType" Value="Impossible de trouver une vue liste pour le type d'objet '{0}'" />
+        <LocalizationItem Name="UnableToFindPropertyInType" Value="Impossible de trouver la propriété '{0}' dans le type '{1}'" />
+        <LocalizationItem Name="UnableToFindType" Value="Impossible de trouver le type '{0}'" />
+        <LocalizationItem Name="UnableToInitializeFileDataProperty" Value="Impossible d'initialiser la propriété {0} dans l'objet {1}, car cette propriété est en lecture seule, ou le type {2} n'a pas de constructeur par défaut, ou vous ne disposez pas des autorisations pour le créer" />
+        <LocalizationItem Name="UnableToSetReadOnlyProperty" Value="Impossible de définir la propriété en lecture seule '{0}'" />
+        <LocalizationItem Name="UnknownException" Value="Une exception inconnue se produit. Impossible de récupérer les détails de l'exception" />
+        <LocalizationItem Name="UnknownValue" Value="Valeur inconnue: '{0}'" />
+        <LocalizationItem Name="UnknownViewNodeName" Value="nom de nœud de vue inconnu: '{0}'\r\nNoms autorisés: '{1}', '{2}'" />
+        <LocalizationItem Name="ValidationCannotFindTheAssociatedMemberInTargetClassForCollectionProperty" Value="La propriété de collection {0} de la classe {1} n'a pas un membre associé dans la classe de l'objet cible {2}" />
+        <LocalizationItem Name="ValidationCannotFindThePropertyWithinTheClass" Value="Ne peut pas vérifier la règle de validation '{0}' qui utilise la propriété '{1}', car cette propriété n'existe pas dans la classe cible '{2}'" />
+        <LocalizationItem Name="ValidationMessageTemplateHasInvalidFormat" Value="Le modèle de message de validation a un format incorrect: '{0}'" />
+        <LocalizationItem Name="ValueCannotBeStoredIntoTheProperty" Value="La valeur '{0}' ne peut pas être stocké dans la propriété '{1}'" />
+        <LocalizationItem Name="WindowWasNotFound" Value="La fenêtre n'a pas été trouvé par id '{0}'. Fenêtres enregistrés: '{1}'" />
+        <LocalizationItem Name="XPDictionaryIsNull" Value="Le XPDictionary est null" />
+        <LocalizationItem Name="YouCannotChangeCurrentAspect" Value="Ne peut pas changer l'aspect actuel. Il dépend de la culture du thread courant" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="UserVisibleExceptions">
+        <LocalizationItem Name="ActionIsNotSingleChoiceAction" Value="Ne peut pas enregistrer l'action '{0}' dans le conteneur d'actions '{1}'. L'action '{0}' n'est pas du type '{2}'." />
+        <LocalizationItem Name="ApplicationUpdateError" Value="La mise à jour est terminée avec succès. Toutefois, la version de base de données est toujours supérieure à la version de l'application. Veuillez contacter votre administrateur système." />
+        <LocalizationItem Name="CannotLoadUserSettingsFromFile" Value="Ne peut pas charger les paramètres de l'utilisateur à partir du fichier Model.xafml." />
+        <LocalizationItem Name="CannotLoadUserSettingsFromTheDatabase" Value="Ne peut pas charger les paramètres de l'utilisateur de la base de données." />
+        <LocalizationItem Name="CannotSaveUserSettingsToTheDatabase" Value="Ne peut pas enregistrer les paramètres de l'utilisateur dans la base de données." />
+        <LocalizationItem Name="CircularReference" Value="Cette opération ne peut pas être terminée, car elle conduit à une référence circulaire." />
+        <LocalizationItem Name="CriteriaEditorsDataTypeIsNull" Value="Veuillez spécifier le type d'objet pour lequel vous voulez construire un critère." />
+        <LocalizationItem Name="FieldValueSizeExceedsMaxLength" Value="La longueur de cette valeur de champ ne peut pas dépasser {0}" />
+        <LocalizationItem Name="LogonAttemptsAmountedToLimitWin" Value="Après trois tentatives de connexion infructueuses, l'application va maintenant être fermé. Veuillez envisager de contacter un administrateur à propos de vos informations de connexion." />
+        <LocalizationItem Name="MaskValidationErrorMessage" Value="Symboles d'entrée manquants" />
+        <LocalizationItem Name="ObjectAccessPermissionCannotBeEmpty" Value="Le champ 'Type d'objet' ne doit pas être vide et au moins un champ d'accès doit avoir une valeur qui diffère de Néant." />
+        <LocalizationItem Name="ObjectToSaveWasChanged" Value="L'objet que vous essayez d'enregistrer a été modifié par un autre utilisateur. Veuillez actualiser les données." />
+        <LocalizationItem Name="RequestedObjectHasBeenDeleted" Value="Les données sont affichées en mode lecture seule, car l'objet a été supprimé." />
+        <LocalizationItem Name="RequestedObjectIsNotFound" Value="L'objet demandé est introuvable et ne peut pas être traité." />
+        <LocalizationGroup Name="Security">
+          <LocalizationItem Name="AllBusinessClasses" Value="Toutes les classes d'affaires" />
+          <LocalizationItem Name="AllPersistentBusinessClasses" Value="Toutes les classes d'affaires persistants" />
+          <LocalizationItem Name="LastAdmin" Value="L'utilisateur '{0}' est le dernier administrateur dans le système. Impossible de révoquer les droits d'administration." />
+          <LocalizationItem Name="LoginFailed" Value="Échec de la connexion '{0}'. {1}" />
+          <LocalizationItem Name="NewPasswordIsEqualToOldPassword" Value="Le nouveau mot de passe est égale à l'ancien mot de passe." />
+          <LocalizationItem Name="OldPasswordIsWrong" Value="L'ancien mot de passe est erroné." />
+          <LocalizationItem Name="PasswordsAreDifferent" Value="Les mots de passe sont différents." />
+          <LocalizationItem Name="RetypeTheInformation" Value="Assurez-vous que votre nom d'utilisateur est correct et retaper le mot de passe dans la casse correcte." />
+          <LocalizationItem Name="UnableToReadCurrentUserData" Value="Autorisations insuffisantes pour changer le mot de passe pour l'utilisateur {0}. L'utilisateur doit avoir au moins la permission de lire ses propres données et de changer le mot de passe stocké." />
+          <LocalizationItem Name="UserNameIsEmpty" Value="Le nom d'utilisateur ne doit pas être vide" />
+        </LocalizationGroup>
+        <LocalizationItem Name="SimultaneousChangeDataMessage" Value="Attention: Modifications simultanées de la même information dans différentes fenêtres/vues sont détectés:\n{0}\nIl sera possible d'enregistrer les modifications dans une seule fenêtre/vue" />
+        <LocalizationItem Name="SimultaneousChangeDataMessageItem" Value="- fenêtre/vue'{0}' ({1}), objet '{2}' ({3})" />
+        <LocalizationItem Name="SystemExceptionMessageFormat" Value="Une erreur avec le numéro {0} s'est produite\r\nMessage d'erreur: {1}" />
+        <LocalizationItem Name="TheFollowingErrorOccurred" Value="L'erreur suivante s'est produite:" />
+        <LocalizationItem Name="UserFriendlyConnectionFailedException" Value="La connexion à la base de données a échoué. Veuillez contacter votre administrateur système." />
+        <LocalizationItem Name="UserFriendlySqlException" Value="Une erreur est survenue lors de la connexion à la base de données. Veuillez contacter votre administrateur système." />
+        <LocalizationItem Name="UserSettingsFailureSuggestion" Value="Contactez votre administrateur de l'application pour une solution. Vous pouvez également essayer de trouver la raison de cet échec en vérifiant le fichier journal." />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Messages">
+      <LocalizationItem Name="Create" Value="Créer" />
+      <LocalizationItem Name="Delete" Value="Supprimer" />
+      <LocalizationItem Name="IsGrantedFrom" Value="est accordée sur le membre de la classe '{0}'." />
+      <LocalizationItem Name="IsInheritedFrom" Value="est hérité de la classe '{0}'." />
+      <LocalizationItem Name="Navigate" Value="Naviguer" />
+      <LocalizationItem Name="Read" Value="Lire" />
+      <LocalizationItem Name="User" Value="Utilisateur: {0}" />
+      <LocalizationItem Name="Write" Value="Écrire" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Namespaces">
+      <LocalizationItem Name="DevExpress.ExpressApp.Editors" Value="Rédacteurs" />
+      <LocalizationItem Name="DevExpress.ExpressApp.Security" Value="Sécurité" />
+      <LocalizationItem Name="DevExpress.ExpressApp.Security.Strategy" Value="Stratégie" />
+      <LocalizationItem Name="DevExpress.ExpressApp.Security.Strategy.PermissionMatrix" Value="Matrisse d'autorisations" />
+      <LocalizationItem Name="DevExpress.ExpressApp.SystemModule" Value="Module système" />
+      <LocalizationItem Name="DevExpress.Persistent.AuditTrail" Value="Piste d'audit" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="NotificationsPostponeTimesList">
+      <LocalizationItem Name="EightHours" Value="8 heures" />
+      <LocalizationItem Name="ElevenHours" Value="11 heures" />
+      <LocalizationItem Name="FiveHours" Value="5 heures" />
+      <LocalizationItem Name="FourDays" Value="4 jours" />
+      <LocalizationItem Name="FourHours" Value="4 heures" />
+      <LocalizationItem Name="HalfDay" Value="0,5 jours" />
+      <LocalizationItem Name="NineHours" Value="9 heures" />
+      <LocalizationItem Name="None" Value="Aucun" />
+      <LocalizationItem Name="OneDay" Value="Un jour" />
+      <LocalizationItem Name="OneHour" Value="1 heure" />
+      <LocalizationItem Name="OneWeek" Value="1 semaine" />
+      <LocalizationItem Name="SevenHours" Value="7 heures" />
+      <LocalizationItem Name="SixHours" Value="6 heures" />
+      <LocalizationItem Name="TenHours" Value="10 heures" />
+      <LocalizationItem Name="ThreeDays" Value="3 jours" />
+      <LocalizationItem Name="ThreeHours" Value="3 heures" />
+      <LocalizationItem Name="TwoDays" Value="2 jours" />
+      <LocalizationItem Name="TwoHours" Value="2 heures" />
+      <LocalizationItem Name="TwoWeeks" Value="2 semaines" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Security">
+      <LocalizationItem Name="AllBusinessClasses" Value="Toutes les classes" />
+      <LocalizationItem Name="AllPersistentBusinessClasses" Value="Toutes les classes persistantes" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Texts">
+      <LocalizationItem Name="DefaultAspectText" Value="(Langage par défaut)" />
+      <LocalizationItem Name="Error" Value="Erreur" />
+      <LocalizationItem Name="SharedModelDifferenceName" Value="Différence de modèle partagé" />
+      <LocalizationItem Name="Warning" Value="Avertissement" />
+    </LocalizationGroup>
+  </Localization>
+  <Views>
+    <DetailView Id="AboutInfo_DetailView" Caption="A propos" />
+    <DetailView Id="ActionContainerDashboardOrganizationItem_DetailView">
+      <Items>
+        <PropertyEditor Id="ActionContainer" Caption="Conteneur d'action" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <ListView Id="ActionContainerDashboardOrganizationItem_ListView">
+      <Columns>
+        <ColumnInfo Id="ActionContainer" Caption="Conteneur d'action" />
+      </Columns>
+    </ListView>
+    <ListView Id="ActionContainerDashboardOrganizationItem_LookupListView">
+      <Columns>
+        <ColumnInfo Id="ActionContainer" Caption="Conteneur d'action" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ActionContainerDescriptor_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ActionRef_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="AuditDataItemPersistent_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="AuditedObjectWeakReference_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView" Caption="Ouvrir une session">
+      <Items>
+        <StaticText Id="LogonText" Text="Bienvenue! Veuillez saisir votre nom d'utilisateur et mot de passe ci-dessous." />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="BaseAuditedObjectWeakReference_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ChangePasswordOnLogonParameters_DetailView" Caption="Changer le mot de passe sur la première connexion">
+      <Items>
+        <StaticText Id="ChangePasswordText" Text="Pour des raisons de sécurité, vous devez maintenant définir votre propre mot de passe. Veuillez saisir votre nouveau mot de passe dans les deux champs de texte ci-dessous, et être sûr de ne pas réutiliser un mot de passe que vous avez déjà utilisé" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ChangePasswordParameters_DetailView" Caption="Changer le mot de passe">
+      <Items>
+        <StaticText Id="ChangePasswordText" Text="Pour changer votre mot de passe, Veuillez saisir vos anciens et nouveaux mots de passe dans les champs de texte ci-dessous." />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Parasites" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="CriteriaProvider_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardCreationInfo_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DashboardCreationInfo">
+              <LayoutGroup Id="ViewItems" Caption="Afficher les éléments" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardOrganizer_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardViewItemDescriptor_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="DiagnosticInfoObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="EditModelPermission_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="LsSecuritySystemRole_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="LsSecuritySystemUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Item5" Caption="Informations de connexion" />
+            <LayoutGroup Id="LsSecuritySystemUser" Caption="Informations personnels">
+              <LayoutGroup Id="Auto91909484-78a7-4364-88f2-ea67eb8d2774">
+                <LayoutGroup Id="Auto1c385746-e095-47e7-8e4a-ca559cc0ed65">
+                  <LayoutGroup Id="Auto0e8e02b1-7b75-4af7-abea-0818db131d5d">
+                    <LayoutGroup Id="Item2" Caption="Informations de contact" />
+                    <LayoutGroup Id="Item3" Caption="Réseaux sociaux" />
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ModelDifferenceCopyParameters_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="ObjectAccessPermission_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="ObjectAccessPermission" Caption="Autorisation d'accès aux objets" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ResetPasswordParameters_DetailView" Caption="Réinitialiser le mot de passe">
+      <Items>
+        <StaticText Id="ResetPasswordText" Text="Définir le mot de passe de l'utilisateur va créer un nouveau mot de passe pour l'utilisateur automatiquement, et en même temps désactivera la connexion de l'utilisateur avec l'ancien mot de passe. Vous devez alors communiquer le nouveau mot de passe à l'utilisateur, alors qu'il/elle peut continuer à travailler avec l'application. Continuer?" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemMemberPermissionsObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemObjectPermissionsObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemRole_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemRoleBase_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemTypePermissionObject_DetailView">
+      <Items>
+        <PropertyEditor Id="ObjectPermissions" Caption="Autorisations des objets" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemTypePermissionsObjectBase_DetailView">
+      <Items>
+        <PropertyEditor Id="ObjectPermissions" Caption="Autorisations des objets" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SecuritySystemTypePermissionsObjectBase" Caption="Base d'objet d'autorisation sur les types du système de sécurité" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemTypePermissionsObjectOwner_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Roles_Group1" Caption="Rôles" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecuritySystemUserBase_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="StaticImageDashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="StaticTextDashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+    <DetailView Id="TypePermissionMatrixItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Permissions" Caption="Autorisations" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="MemberPermissions" Caption="Autorisations des membres" />
+            <LayoutGroup Id="ObjectPermissions" Caption="Autorisations de l'objet" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ViewDashboardOrganizationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal" />
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

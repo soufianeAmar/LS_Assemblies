@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application PreferredLanguage="(Default language)">
+  <NavigationItems>
+    <Items>
+      <Item Id="Settings">
+        <Items>
+          <Item Id="MailSettings_ListView" ViewId="MailSettings_DetailView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="15.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="eMail_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="Send e-Mail" ActionContainer="SendEmail" Caption="Send e-Mail(34)" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="eMail" Index="0" RelativeSize="100" Direction="Vertical" Caption="eMail" Removed="True">
+              <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="0" RelativeSize="9.4955489614243316" IsNewNode="True" />
+              <LayoutGroup Id="Auto2438c4ac-1227-4f7d-bb6e-3e5c1afa617d" ShowCaption="False" Caption="Auto2438c4ac-1227-4f7d-bb6e-3e5c1afa617d(5)" Direction="Horizontal" Index="1" RelativeSize="37.388724035608305" IsNewNode="True">
+                <LayoutGroup Id="Item1" ShowCaption="True" Caption="Sender" CaptionLocation="Top" Index="0" RelativeSize="48.708010335917315" IsNewNode="True">
+                  <LayoutItem Id="senderEmail" ViewItem="senderEmail" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  <LayoutItem Id="senderName" ViewItem="senderName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                  <LayoutItem Id="replyTo" ViewItem="replyTo" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Item2" ShowCaption="True" Caption="Recipient" CaptionLocation="Top" Index="1" RelativeSize="51.291989664082685" IsNewNode="True">
+                  <LayoutItem Id="recipient" ViewItem="recipient" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  <LayoutItem Id="recipientName" ViewItem="recipientName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                  <LayoutItem Id="recipientEMail" ViewItem="recipientEMail" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutItem Id="body" ViewItem="body" SizeConstraintsType="Custom" Index="2" RelativeSize="13.353115727002967" CaptionLocation="Top" MinSize="98, 40" MaxSize="0, 0" IsNewNode="True" />
+              <LayoutGroup Id="Autoc2eea036-6352-48d8-bcd1-71465db19954" ShowCaption="False" Caption="Autoc2eea036-6352-48d8-bcd1-71465db19954(15)" Direction="Vertical" Index="3" RelativeSize="39.762611275964389" IsNewNode="True">
+                <LayoutGroup Id="Auto19224a5d-91f2-4b82-bf75-97535bc2f1ce" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="22.388059701492537" IsNewNode="True">
+                  <LayoutItem Id="signature" ViewItem="signature" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                  <LayoutItem Id="Item4" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Item3" ShowCaption="True" Caption="Sending Information" CaptionLocation="Top" Index="1" RelativeSize="77.611940298507463" IsNewNode="True">
+                  <LayoutGroup Id="Autob8dea625-15d9-4dcc-8f38-be6b01513caa" ShowCaption="False" Caption="Autob8dea625-15d9-4dcc-8f38-be6b01513caa(20)" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                    <LayoutItem Id="scheduledDate" ViewItem="scheduledDate" SizeConstraintsType="Default" Index="0" RelativeSize="25.333333333333332" IsNewNode="True" />
+                    <LayoutItem Id="Item5" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="74.666666666666671" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Autof1893dd9-ca10-4402-a3dd-f379d5f62b58" ShowCaption="False" Caption="Autof1893dd9-ca10-4402-a3dd-f379d5f62b58(23)" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
+                    <LayoutItem Id="sendingState" ViewItem="sendingState" SizeConstraintsType="Default" Index="0" RelativeSize="34.4" IsNewNode="True" />
+                    <LayoutItem Id="Item6" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="65.6" IsNewNode="True" />
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="eMail_col1" RelativeSize="100" Removed="True">
+                <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="50" Caption="Sender" IsNewNode="True">
+                  <LayoutItem Id="senderEmail" ViewItem="senderEmail" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  <LayoutItem Id="senderName" ViewItem="senderName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                  <LayoutItem Id="replyTo" ViewItem="replyTo" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="senderEmail" SizeConstraintsType="Default" Index="0" RelativeSize="23.529411764705884" Removed="True" />
+                <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="50" Caption="Recipient" IsNewNode="True">
+                  <LayoutItem Id="recipient" ViewItem="recipient" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  <LayoutItem Id="recipientName" ViewItem="recipientName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                  <LayoutItem Id="recipientEMail" ViewItem="recipientEMail" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="recipient" SizeConstraintsType="Default" Index="1" RelativeSize="15.789473684210526" Removed="True" />
+                <LayoutItem Id="senderName" SizeConstraintsType="Default" Index="1" RelativeSize="17.647058823529413" Removed="True" />
+                <LayoutItem Id="recipientEMail" SizeConstraintsType="Default" Index="2" RelativeSize="21.05263157894737" Removed="True" />
+                <LayoutItem Id="subject" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="eMail_col2" RelativeSize="50" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="recipientName" Removed="True" />
+                <LayoutItem Id="replyTo" Removed="True" />
+                <LayoutItem Id="scheduledDate" Removed="True" />
+                <LayoutItem Id="sendingState" Removed="True" />
+                <LayoutItem Id="signature" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <TabbedGroup Id="Item7" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+              <LayoutGroup Id="eMail" ShowCaption="True" Index="0" RelativeSize="100" IsNewNode="True">
+                <LayoutGroup Id="Autoeab7208c-c26b-4d8b-807d-0f61c01986ca" ShowCaption="False" Caption="Autoeab7208c-c26b-4d8b-807d-0f61c01986ca(5)" Direction="Horizontal" Index="0" RelativeSize="4.9136786188579018" IsNewNode="True">
+                  <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="0" RelativeSize="72.989377845220034" IsNewNode="True" />
+                  <LayoutItem Id="Send e-Mail" ViewItem="Send e-Mail" SizeConstraintsType="Default" Index="1" RelativeSize="27.01062215477997" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto2438c4ac-1227-4f7d-bb6e-3e5c1afa617d" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="16.069057104913679" IsNewNode="True">
+                  <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="48.406676783004549" Caption="Sender" IsNewNode="True">
+                    <LayoutItem Id="senderEmail" ViewItem="senderEmail" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                    <LayoutItem Id="senderName" ViewItem="senderName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                    <LayoutItem Id="replyTo" ViewItem="replyTo" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="51.593323216995451" Caption="Recipient" IsNewNode="True">
+                    <LayoutItem Id="recipient" ViewItem="recipient" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                    <LayoutItem Id="recipientName" ViewItem="recipientName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                    <LayoutItem Id="recipientEMail" ViewItem="recipientEMail" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="body" ViewItem="body" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="98, 40" MaxSize="0, 0" Index="2" RelativeSize="60.690571049136786" IsNewNode="True" />
+                <LayoutGroup Id="Autoc2eea036-6352-48d8-bcd1-71465db19954" ShowCaption="False" Index="3" RelativeSize="18.326693227091635" IsNewNode="True">
+                  <LayoutGroup Id="Auto2d6daabd-d995-41bd-b6b2-8f671fe70a57" ShowCaption="False" Caption="Auto2d6daabd-d995-41bd-b6b2-8f671fe70a57(17)" Direction="Horizontal" Index="0" RelativeSize="26.086956521739129" IsNewNode="True">
+                    <LayoutItem Id="signature" ViewItem="signature" SizeConstraintsType="Default" Index="0" RelativeSize="49.92412746585736" IsNewNode="True" />
+                    <LayoutItem Id="Item4" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="50.07587253414264" ViewItem="" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="73.913043478260875" Caption="Followup" IsNewNode="True">
+                    <LayoutGroup Id="Autob8dea625-15d9-4dcc-8f38-be6b01513caa" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                      <LayoutItem Id="scheduledDate" ViewItem="scheduledDate" SizeConstraintsType="Default" Index="0" RelativeSize="25.274725274725274" IsNewNode="True" />
+                      <LayoutItem Id="Item5" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="74.72527472527473" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Autof1893dd9-ca10-4402-a3dd-f379d5f62b58" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
+                      <LayoutItem Id="sendingState" ViewItem="sendingState" SizeConstraintsType="Default" Index="0" RelativeSize="34.37990580847724" IsNewNode="True" />
+                      <LayoutItem Id="Item6" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="65.620094191522767" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="AuditTrail" ShowCaption="True" Caption="Audit Trail" Index="1" RelativeSize="100" IsNewNode="True">
+                <LayoutItem Id="AuditTrail" ShowCaption="False" ViewItem="AuditTrail" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="fileAttachments" ShowCaption="True" Caption="File attachments" Index="2" RelativeSize="100" IsNewNode="True">
+                <LayoutItem Id="fileAttachments" ShowCaption="False" ViewItem="fileAttachments" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" Index="1" RelativeSize="33.333333333333336" Removed="True">
+            <LayoutGroup Id="fileAttachments" RelativeSize="100" Index="0">
+              <LayoutItem Id="fileAttachments" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" RelativeSize="100" Removed="True">
+              <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="7.5203252032520327" Caption="Body" Direction="Horizontal" Removed="True">
+            <LayoutItem Id="body" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="eMail_ListView">
+      <Columns>
+        <ColumnInfo Id="recipient" Index="-1" />
+        <ColumnInfo Id="replyTo" Index="-1" />
+        <ColumnInfo Id="signature" Index="-1" />
+        <ColumnInfo Id="subject" Index="0" Width="198" />
+        <ColumnInfo Id="senderName" Width="96" Index="1" />
+        <ColumnInfo Id="senderEmail" Width="87" />
+        <ColumnInfo Id="recipientName" Index="3" Width="85" />
+        <ColumnInfo Id="recipientEMail" Index="4" />
+        <ColumnInfo Id="scheduledDate" Index="5" Width="92" />
+        <ColumnInfo Id="sendingState" Index="6" Width="118" />
+      </Columns>
+    </ListView>
+    <DetailView Id="eMailTemplate_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" Direction="Vertical">
+            <LayoutGroup Id="Autof48403b0-a487-470b-9ba1-054ae08c4682" ShowCaption="False" Index="0" RelativeSize="100" Direction="Vertical" IsNewNode="True">
+              <TabbedGroup Id="Item2" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                <LayoutGroup Id="eMailTemplate" ShowCaption="True" Index="0" RelativeSize="100" Caption="eMailTemplate" IsNewNode="True">
+                  <LayoutGroup Id="eMailTemplate_col1" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+                    <LayoutGroup Id="Auto5236c1ae-61f1-4f68-a5b4-a9f63c652fc8" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
+                      <LayoutGroup Id="Autob94caf10-bd81-4887-b655-fec8840d241c" ShowCaption="False" Caption="Autob94caf10-bd81-4887-b655-fec8840d241c(8)" Index="0" RelativeSize="54.941373534338361" IsNewNode="True">
+                        <LayoutItem Id="name" ViewItem="name" SizeConstraintsType="Default" Index="0" RelativeSize="7.2562358276643995" IsNewNode="True" />
+                        <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="1" RelativeSize="5.4421768707482991" IsNewNode="True" />
+                        <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="2" RelativeSize="25.396825396825395" Caption="Sender" IsNewNode="True">
+                          <LayoutItem Id="senderEmail" ViewItem="senderEmail" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                          <LayoutItem Id="senderName" ViewItem="senderName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                          <LayoutItem Id="replyTo" ViewItem="replyTo" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                        </LayoutGroup>
+                        <LayoutItem Id="objectType" ViewItem="objectType" SizeConstraintsType="Default" Index="3" RelativeSize="5.4421768707482991" IsNewNode="True" />
+                        <LayoutItem Id="bodyParameters" ViewItem="bodyParameters" SizeConstraintsType="Default" Index="4" RelativeSize="5.4421768707482991" IsNewNode="True" />
+                        <LayoutItem Id="body" ViewItem="body" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="160, 24" MaxSize="0, 0" Index="5" RelativeSize="42.403628117913833" IsNewNode="True" />
+                        <LayoutGroup Id="Auto11caf4bd-2197-4d75-8246-3063e9418eaa" ShowCaption="False" Direction="Horizontal" Index="6" RelativeSize="8.616780045351474" IsNewNode="True">
+                          <LayoutItem Id="signature" ViewItem="signature" SizeConstraintsType="Default" Index="0" RelativeSize="58.841463414634148" IsNewNode="True" />
+                          <LayoutItem Id="Item3" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="41.158536585365852" ViewItem="" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutItem Id="Item4" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="45.058626465661639" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="AuditTrail_Group" ShowCaption="True" Index="1" RelativeSize="100" IsNewNode="True">
+                  <LayoutItem Id="AuditTrail" ViewItem="AuditTrail" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="eMailTemplate" RelativeSize="63.5809987819732" Direction="Vertical" Removed="True">
+              <LayoutGroup Id="eMailTemplate_col1" RelativeSize="100">
+                <LayoutGroup Id="Auto58dc150c-0db6-4eb8-afe7-f9511b774dee" ShowCaption="False" Caption="Auto58dc150c-0db6-4eb8-afe7-f9511b774dee(5)" Direction="Horizontal" Index="0" RelativeSize="7.7433628318584073" IsNewNode="True">
+                  <LayoutItem Id="name" ViewItem="name" SizeConstraintsType="Default" Index="0" RelativeSize="52.475247524752476" IsNewNode="True" />
+                  <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="47.524752475247524" ViewItem="" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="name" SizeConstraintsType="Default" Index="0" RelativeSize="7.0796460176991154" Removed="True" />
+                <LayoutGroup Id="Auto5236c1ae-61f1-4f68-a5b4-a9f63c652fc8" ShowCaption="False" Caption="Auto5236c1ae-61f1-4f68-a5b4-a9f63c652fc8(8)" Index="1" RelativeSize="92.2566371681416" IsNewNode="True">
+                  <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="0" RelativeSize="6.4748201438848918" IsNewNode="True" />
+                  <LayoutGroup Id="Item1" ShowCaption="True" Caption="Sender" CaptionLocation="Top" Index="1" RelativeSize="26.858513189448441" IsNewNode="True">
+                    <LayoutItem Id="senderEmail" ViewItem="senderEmail" SizeConstraintsType="Default" Index="0" RelativeSize="36.363636363636367" IsNewNode="True" />
+                    <LayoutItem Id="senderName" ViewItem="senderName" SizeConstraintsType="Default" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                    <LayoutItem Id="replyTo" ViewItem="replyTo" SizeConstraintsType="Default" Index="2" RelativeSize="36.363636363636367" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="bodyParameters" ViewItem="bodyParameters" SizeConstraintsType="Default" Index="2" RelativeSize="5.7553956834532372" IsNewNode="True" />
+                  <LayoutItem Id="body" ViewItem="body" SizeConstraintsType="Custom" Index="3" RelativeSize="51.798561151079134" MinSize="160, 24" MaxSize="0, 0" IsNewNode="True" />
+                  <LayoutGroup Id="Auto11caf4bd-2197-4d75-8246-3063e9418eaa" ShowCaption="False" Caption="Auto11caf4bd-2197-4d75-8246-3063e9418eaa(16)" Direction="Horizontal" Index="4" RelativeSize="9.1127098321342928" IsNewNode="True">
+                    <LayoutItem Id="signature" ViewItem="signature" SizeConstraintsType="Default" Index="0" RelativeSize="54.455445544554458" IsNewNode="True" />
+                    <LayoutItem Id="Item3" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="45.544554455445542" ViewItem="" IsNewNode="True" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="1" RelativeSize="5.3097345132743365" Removed="True" />
+                <LayoutItem Id="senderEmail" SizeConstraintsType="Default" RelativeSize="21.428571428571427" Removed="True" />
+                <LayoutItem Id="senderName" SizeConstraintsType="Default" RelativeSize="28.571428571428573" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="eMailTemplate_col2" RelativeSize="50" Caption="eMailTemplate_col2" Direction="Horizontal" Removed="True">
+                <LayoutItem Id="bodyParameters" Removed="True" />
+                <LayoutItem Id="replyTo" Removed="True" />
+                <LayoutItem Id="signature" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" Index="1" RelativeSize="33.130081300813011" Removed="True">
+            <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="41.869918699186989" Caption="Body" Direction="Horizontal" Removed="True">
+            <LayoutItem Id="body" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="eMailTemplate_ListView">
+      <Columns>
+        <ColumnInfo Id="bodyParameters" Index="-1" />
+        <ColumnInfo Id="replyTo" Index="-1" />
+        <ColumnInfo Id="signature" Index="-1" />
+        <ColumnInfo Id="name" Index="0" />
+        <ColumnInfo Id="subject" Index="1" Width="201" />
+        <ColumnInfo Id="senderEmail" Width="90" />
+        <ColumnInfo Id="senderName" Index="2" Width="79" />
+      </Columns>
+    </ListView>
+    <DetailView Id="MailSettings_DetailView" AllowDelete="False" AllowNew="False">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="MailSettings" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Auto25fd187e-67be-4676-825b-46ca223b2064" ShowCaption="False" Direction="Vertical" Index="0" RelativeSize="100" IsNewNode="True">
+                <TabbedGroup Id="Item4" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                  <LayoutGroup Id="Item1" ShowCaption="True" Caption="E-Mail settings" CaptionLocation="Top" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
+                    <LayoutGroup Id="Autodc432918-5d24-4a0a-aa26-b5cc7a4424ce" ShowCaption="False" Caption="Autodc432918-5d24-4a0a-aa26-b5cc7a4424ce(7)" Index="0" RelativeSize="45.584045584045583" IsNewNode="True">
+                      <LayoutGroup Id="Item5" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="25.493171471927162" Caption="Settings" IsNewNode="True">
+                        <LayoutItem Id="port" ViewItem="port" SizeConstraintsType="Default" Index="0" RelativeSize="23.529411764705884" IsNewNode="True" />
+                        <LayoutItem Id="host" ViewItem="host" SizeConstraintsType="Default" Index="1" RelativeSize="17.647058823529413" IsNewNode="True" />
+                        <LayoutItem Id="username" ViewItem="username" SizeConstraintsType="Default" Index="2" RelativeSize="17.647058823529413" IsNewNode="True" />
+                        <LayoutItem Id="password" ViewItem="password" SizeConstraintsType="Default" Index="3" RelativeSize="17.647058823529413" IsNewNode="True" />
+                        <LayoutItem Id="enableSSL" ViewItem="enableSSL" SizeConstraintsType="Default" Index="4" RelativeSize="23.529411764705884" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="74.506828528072845" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Item3" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="54.415954415954417" ViewItem="" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="AuditTrail_Group" ShowCaption="True" Index="1" RelativeSize="100" IsNewNode="True">
+                    <LayoutItem Id="AuditTrail" ViewItem="AuditTrail" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="MailSettings_col1" Index="1" RelativeSize="19.23076923076923" ShowCaption="True" Removed="True">
+                <LayoutItem Id="host" SizeConstraintsType="Default" RelativeSize="33.134328358208954" />
+                <LayoutItem Id="port" SizeConstraintsType="Default" RelativeSize="33.28358208955224" />
+                <LayoutItem Id="username" SizeConstraintsType="Default" RelativeSize="33.582089552238806" />
+              </LayoutGroup>
+              <LayoutGroup Id="MailSettings_col2" Index="1" RelativeSize="40.247252747252745" Caption="MailSettings_col2" ShowCaption="True" Removed="True">
+                <LayoutItem Id="enableSSL" Removed="True" />
+                <LayoutItem Id="password" SizeConstraintsType="Default" RelativeSize="100" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="33.333333333333336" Removed="True">
+            <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="NotificationItem_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" Direction="Vertical">
+            <LayoutGroup Id="Auto4c25bb3a-24bc-494b-9342-d070e2fd45a4" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+              <TabbedGroup Id="Item6" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                <LayoutGroup Id="NotificationItem" ShowCaption="True" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
+                  <LayoutGroup Id="Autod3214af2-6e28-4935-8f8b-7ce57083c82d" ShowCaption="False" Caption="Autod3214af2-6e28-4935-8f8b-7ce57083c82d(6)" Index="0" RelativeSize="53.038674033149171" IsNewNode="True">
+                    <LayoutGroup Id="Autoc5cb698c-a01b-4131-a668-a209fda25942" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="5.0071530758226039" IsNewNode="True">
+                      <LayoutItem Id="id" ViewItem="id" SizeConstraintsType="Default" Index="0" RelativeSize="62.760416666666664" IsNewNode="True" />
+                      <LayoutItem Id="Item1" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="37.239583333333336" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Autoc716d66b-246f-4fe5-bcad-fc5c47269e81" ShowCaption="False" Index="1" RelativeSize="9.0128755364806867" IsNewNode="True">
+                      <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="0" RelativeSize="42.857142857142854" IsNewNode="True" />
+                      <LayoutGroup Id="Autob12f5446-c694-4463-aa93-8b1ffabbae71" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="57.142857142857146" IsNewNode="True">
+                        <LayoutItem Id="user" ViewItem="user" SizeConstraintsType="Default" Index="0" RelativeSize="62.760416666666664" IsNewNode="True" />
+                        <LayoutItem Id="Item4" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="37.239583333333336" ViewItem="" IsNewNode="True" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Direction="Horizontal" Index="2" RelativeSize="9.1559370529327619" Caption="Date/Time settings" IsNewNode="True">
+                      <LayoutItem Id="dueDate" ViewItem="dueDate" SizeConstraintsType="Default" Index="0" RelativeSize="50.136239782016347" IsNewNode="True" />
+                      <LayoutItem Id="ReminderTime" ViewItem="ReminderTime" SizeConstraintsType="Default" Index="1" RelativeSize="49.863760217983653" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutItem Id="content" ViewItem="content" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="148, 32" MaxSize="0, 0" Index="3" RelativeSize="70.100143061516448" IsNewNode="True" />
+                    <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Default" Index="4" RelativeSize="6.7238912732474967" ViewItem="" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="Item5" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="46.961325966850829" ViewItem="" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="AuditTrail_Group" ShowCaption="True" Index="1" RelativeSize="100" IsNewNode="True">
+                  <LayoutItem Id="AuditTrail" ViewItem="AuditTrail" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="NotificationItem" RelativeSize="73.3739837398374" Direction="Vertical" Removed="True">
+              <LayoutGroup Id="Autoc5cb698c-a01b-4131-a668-a209fda25942" ShowCaption="False" Caption="Autoc5cb698c-a01b-4131-a668-a209fda25942(4)" Direction="Horizontal" Index="0" RelativeSize="10.638297872340425" IsNewNode="True">
+                <LayoutItem Id="id" ViewItem="id" SizeConstraintsType="Default" Index="0" RelativeSize="50.06257822277847" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="49.93742177722153" ViewItem="" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Autoc716d66b-246f-4fe5-bcad-fc5c47269e81" ShowCaption="False" Caption="Autoc716d66b-246f-4fe5-bcad-fc5c47269e81(7)" Index="1" RelativeSize="19.148936170212767" IsNewNode="True">
+                <LayoutItem Id="subject" ViewItem="subject" SizeConstraintsType="Default" Index="0" RelativeSize="42.857142857142854" IsNewNode="True" />
+                <LayoutGroup Id="Autob12f5446-c694-4463-aa93-8b1ffabbae71" ShowCaption="False" Caption="Autob12f5446-c694-4463-aa93-8b1ffabbae71(9)" Direction="Horizontal" Index="1" RelativeSize="57.142857142857146" IsNewNode="True">
+                  <LayoutItem Id="user" ViewItem="user" SizeConstraintsType="Default" Index="0" RelativeSize="50.06257822277847" IsNewNode="True" />
+                  <LayoutItem Id="Item4" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="49.93742177722153" ViewItem="" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Direction="Horizontal" Index="2" RelativeSize="19.45288753799392" Caption="Date Time Settings" IsNewNode="True">
+                <LayoutItem Id="dueDate" ViewItem="dueDate" SizeConstraintsType="Default" Index="0" RelativeSize="49.935649935649934" IsNewNode="True" />
+                <LayoutItem Id="ReminderTime" ViewItem="ReminderTime" SizeConstraintsType="Default" Index="1" RelativeSize="50.064350064350066" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="content" ViewItem="content" SizeConstraintsType="Custom" Index="3" RelativeSize="50.759878419452889" MinSize="148, 32" MaxSize="0, 0" IsNewNode="True" />
+              <LayoutGroup Id="NotificationItem_col1" RelativeSize="50" Removed="True">
+                <LayoutItem Id="dueDate" SizeConstraintsType="Default" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="id" SizeConstraintsType="Default" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="subject" SizeConstraintsType="Default" RelativeSize="27.272727272727273" />
+              </LayoutGroup>
+              <LayoutGroup Id="NotificationItem_col2" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" Index="1" RelativeSize="33.333333333333336" Removed="True">
+            <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="59.756097560975611" Direction="Horizontal" Caption="Content" Removed="True">
+            <LayoutItem Id="content" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="NotificationItem_ListView">
+      <Columns>
+        <ColumnInfo Id="subject" Width="125" />
+        <ColumnInfo Id="dueDate" Width="108" />
+        <ColumnInfo Id="user" Width="105" />
+        <ColumnInfo Id="ReminderTime" Width="127" />
+      </Columns>
+    </ListView>
+    <DetailView Id="NotificationSetting_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" Direction="Vertical">
+            <LayoutGroup Id="Auto7a7a6710-81ea-4e9d-8536-ec4530d69eeb" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+              <TabbedGroup Id="Item12" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                <LayoutGroup Id="NotificationSetting" ShowCaption="True" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
+                  <LayoutGroup Id="Autoc28868b4-b747-484e-a542-b657a80b49d2" ShowCaption="False" Caption="" Index="0" RelativeSize="55.624036979969183" IsNewNode="True">
+                    <LayoutGroup Id="Autoeb6fd701-474a-4385-add0-55896d5fc376" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="7.9365079365079367" IsNewNode="True">
+                      <LayoutItem Id="id" ViewItem="id" SizeConstraintsType="Default" Index="0" RelativeSize="57.340720221606645" IsNewNode="True" />
+                      <LayoutItem Id="Item1" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="42.659279778393355" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto64c84c77-a8fc-4355-b418-cd16e0f6909f" ShowCaption="False" Index="1" RelativeSize="14.965986394557824" IsNewNode="True">
+                      <LayoutGroup Id="Auto01e79667-13e0-487b-bcf4-00234190c331" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                        <LayoutItem Id="objectType" ViewItem="objectType" SizeConstraintsType="Default" Index="0" RelativeSize="63.711911357340718" IsNewNode="True" />
+                        <LayoutItem Id="Item5" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="36.288088642659282" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Autoe1018c77-9568-45be-9eb5-be8a30991414" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
+                        <LayoutItem Id="user" ViewItem="user" SizeConstraintsType="Default" Index="0" RelativeSize="58.171745152354568" IsNewNode="True" />
+                        <LayoutItem Id="Item6" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="41.828254847645432" IsNewNode="True" />
+                      </LayoutGroup>
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item2" ShowCaption="True" Caption="Notification Type" CaptionLocation="Top" Index="2" RelativeSize="36.054421768707485" IsNewNode="True">
+                      <LayoutGroup Id="Auto6f04bf8d-0c92-4674-ad67-495082deb676" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="26.315789473684209" IsNewNode="True">
+                        <LayoutItem Id="notificationType" ViewItem="notificationType" SizeConstraintsType="Default" Index="0" RelativeSize="65.497076023391813" IsNewNode="True" />
+                        <LayoutItem Id="Item7" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="34.502923976608187" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Autod9fbeea1-4c97-417f-ac50-4c721663b03f" ShowCaption="False" Index="1" RelativeSize="49.624060150375939" IsNewNode="True">
+                        <LayoutGroup Id="Autoad0b0a26-0926-4807-ab9f-7b07d86f3d70" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                          <LayoutItem Id="dateExpression" ViewItem="dateExpression" SizeConstraintsType="Default" Index="0" RelativeSize="78.3625730994152" IsNewNode="True" />
+                          <LayoutItem Id="Item8" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="21.637426900584796" IsNewNode="True" />
+                        </LayoutGroup>
+                        <LayoutGroup Id="Auto00221d2f-3e28-48cb-8297-ede3db9e2b4b" ShowCaption="False" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
+                          <LayoutItem Id="dateValue" ViewItem="dateValue" SizeConstraintsType="Default" Index="0" RelativeSize="48.538011695906434" IsNewNode="True" />
+                          <LayoutItem Id="Item9" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="51.461988304093566" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutItem Id="condition" ViewItem="condition" SizeConstraintsType="Default" Index="2" RelativeSize="24.060150375939848" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item3" ShowCaption="True" Caption="E-Mail Notification" CaptionLocation="Top" Index="3" RelativeSize="21.768707482993197" IsNewNode="True">
+                      <LayoutGroup Id="Autofe5ec914-7845-429b-8272-f8503ab29352" ShowCaption="False" Direction="Horizontal" Index="0" RelativeSize="54.285714285714285" IsNewNode="True">
+                        <LayoutItem Id="mailTemplate" ViewItem="mailTemplate" SizeConstraintsType="Default" Index="0" RelativeSize="74.26900584795321" IsNewNode="True" />
+                        <LayoutItem Id="Item10" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="25.730994152046783" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutItem Id="sendMail" ViewItem="sendMail" SizeConstraintsType="Default" Index="1" RelativeSize="45.714285714285715" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Item4" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="4" RelativeSize="19.274376417233562" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutItem Id="Item11" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="44.375963020030817" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="AuditTrail_Group" ShowCaption="True" Index="1" RelativeSize="100" IsNewNode="True">
+                  <LayoutItem Id="AuditTrail" ViewItem="AuditTrail" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                </LayoutGroup>
+              </TabbedGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="NotificationSetting" RelativeSize="69.918699186991873" Direction="Vertical" Removed="True">
+              <LayoutGroup Id="Autoeb6fd701-474a-4385-add0-55896d5fc376" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="10.256410256410257" IsNewNode="True">
+                <LayoutItem Id="id" ViewItem="id" SizeConstraintsType="Default" Index="0" RelativeSize="40.523690773067329" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="59.476309226932671" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto64c84c77-a8fc-4355-b418-cd16e0f6909f" ShowCaption="False" Caption="" Index="1" RelativeSize="15.384615384615385" IsNewNode="True">
+                <LayoutGroup Id="Auto01e79667-13e0-487b-bcf4-00234190c331" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                  <LayoutItem Id="objectType" ViewItem="objectType" SizeConstraintsType="Default" Index="0" RelativeSize="45.137157107231921" IsNewNode="True" />
+                  <LayoutItem Id="Item5" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="54.862842892768079" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Autoe1018c77-9568-45be-9eb5-be8a30991414" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
+                  <LayoutItem Id="user" ViewItem="user" SizeConstraintsType="Default" Index="0" RelativeSize="35.785536159600994" IsNewNode="True" />
+                  <LayoutItem Id="Item6" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="64.214463840399" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item2" ShowCaption="True" CaptionLocation="Top" Index="2" RelativeSize="43.589743589743591" Caption="Notification Type" IsNewNode="True">
+                <LayoutGroup Id="Auto6f04bf8d-0c92-4674-ad67-495082deb676" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="28.571428571428573" IsNewNode="True">
+                  <LayoutItem Id="notificationType" ViewItem="notificationType" SizeConstraintsType="Default" Index="0" RelativeSize="40.128205128205131" IsNewNode="True" />
+                  <LayoutItem Id="Item7" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="59.871794871794869" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Autod9fbeea1-4c97-417f-ac50-4c721663b03f" ShowCaption="False" Caption="" Index="1" RelativeSize="42.857142857142854" IsNewNode="True">
+                  <LayoutGroup Id="Autoad0b0a26-0926-4807-ab9f-7b07d86f3d70" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                    <LayoutItem Id="dateExpression" ViewItem="dateExpression" SizeConstraintsType="Default" Index="0" RelativeSize="53.846153846153847" IsNewNode="True" />
+                    <LayoutItem Id="Item8" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="46.153846153846153" IsNewNode="True" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Auto00221d2f-3e28-48cb-8297-ede3db9e2b4b" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True">
+                    <LayoutItem Id="dateValue" ViewItem="dateValue" SizeConstraintsType="Default" Index="0" RelativeSize="34.615384615384613" IsNewNode="True" />
+                    <LayoutItem Id="Item9" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="65.384615384615387" IsNewNode="True" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="condition" ViewItem="condition" SizeConstraintsType="Default" Index="2" RelativeSize="28.571428571428573" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Index="3" RelativeSize="30.76923076923077" Caption="E-Mail Notification" IsNewNode="True">
+                <LayoutGroup Id="Autofe5ec914-7845-429b-8272-f8503ab29352" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True">
+                  <LayoutItem Id="mailTemplate" ViewItem="mailTemplate" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                  <LayoutItem Id="Item10" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="sendMail" ViewItem="sendMail" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="NotificationSetting_col1" Removed="True" />
+              <LayoutGroup Id="NotificationSetting_col2" RelativeSize="50" Removed="True">
+                <LayoutItem Id="condition" SizeConstraintsType="Default" RelativeSize="4.507042253521127" />
+                <LayoutItem Id="isMailTemplateValid" SizeConstraintsType="Default" RelativeSize="85.352112676056336" />
+                <LayoutItem Id="mailTemplate" SizeConstraintsType="Default" RelativeSize="3.380281690140845" />
+                <LayoutItem Id="sendMail" SizeConstraintsType="Default" RelativeSize="3.380281690140845" />
+                <LayoutItem Id="user" SizeConstraintsType="Default" RelativeSize="3.380281690140845" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" RelativeSize="15.853658536585366" Removed="True">
+            <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="NotificationSetting_ListView">
+      <Columns>
+        <ColumnInfo Id="isMailTemplateValid" Index="-1" />
+        <ColumnInfo Id="objectTypeName" Width="190" Index="-1" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="id" Index="0" />
+        <ColumnInfo Id="objectType" Index="1" Width="103" />
+        <ColumnInfo Id="notificationType" Index="2" Width="96" />
+        <ColumnInfo Id="dateExpression" Index="3" Width="107" />
+        <ColumnInfo Id="dateValue" Index="4" />
+        <ColumnInfo Id="condition" Index="5" Width="95" />
+        <ColumnInfo Id="mailTemplate" Index="6" Width="103" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="sendMail" Index="7" Width="90" />
+        <ColumnInfo Id="user" Index="8" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Signature_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" Direction="Vertical">
+          <LayoutGroup Id="Auto47b86f28-1821-4935-b4ff-0fd6a00d8bfb" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+            <TabbedGroup Id="Item4" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+              <LayoutGroup Id="Item1" ShowCaption="True" Caption="Signature Settings" CaptionLocation="Top" Direction="Horizontal" Index="0" RelativeSize="100" IsNewNode="True">
+                <LayoutGroup Id="Auto24c9451a-1459-475c-9dfc-81c08a4d6f22" ShowCaption="False" Caption="Auto24c9451a-1459-475c-9dfc-81c08a4d6f22(5)" Index="0" RelativeSize="73.141122913505313" IsNewNode="True">
+                  <LayoutItem Id="name" ViewItem="name" SizeConstraintsType="Default" Index="0" RelativeSize="4.2496679946879148" IsNewNode="True" />
+                  <LayoutItem Id="body" ViewItem="body" SizeConstraintsType="Custom" MinSize="105, 32" MaxSize="0, 0" Index="1" RelativeSize="43.691899070385126" IsNewNode="True" />
+                  <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Custom" MinSize="151, 32" MaxSize="0, 0" Index="2" RelativeSize="52.058432934926962" ViewItem="" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Item3" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="26.85887708649469" ViewItem="" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="AuditTrail_Group" ShowCaption="True" Index="1" RelativeSize="100" IsNewNode="True">
+                <LayoutItem Id="AuditTrail" ViewItem="AuditTrail" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="AuditTrail_Group" Direction="Vertical" Index="1" RelativeSize="55.391432791728214" Removed="True">
+            <LayoutItem Id="AuditTrail" SizeConstraintsType="Default" RelativeSize="100" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors" RelativeSize="5.0666666666666664" Caption="SimpleEditors" Removed="True">
+            <LayoutItem Id="name" ViewItem="name" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+            <LayoutGroup Id="Signature" RelativeSize="100" Removed="True">
+              <LayoutItem Id="name" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="94.933333333333337" Caption="Body" Removed="True">
+            <LayoutItem Id="body" ViewItem="body" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Signature_ListView">
+      <Columns>
+        <ColumnInfo Id="name" Width="163" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="LsUser_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="LsUser">
+              <LayoutGroup Id="LsUser_col1">
+                <LayoutGroup Id="Autofe6e9f5b-4159-482c-b739-165f1571a401">
+                  <LayoutGroup Id="Autoe3a80a1a-10d2-438c-b46b-143947006c35">
+                    <LayoutGroup Id="Auto1f6dc8b3-7040-40d1-916f-5fc7d50aa45b">
+                      <LayoutItem Id="subscriptionOwner" ViewItem="subscriptionOwner" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto212bb8ac-bd76-4457-80c5-ee362bc58f4a">
+                      <LayoutItem Id="isSubscriptionOwner" ViewItem="isSubscriptionOwner" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
